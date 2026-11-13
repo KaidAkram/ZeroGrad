@@ -1,0 +1,11 @@
+# Reproduction pins; torch uses the public version, not the authoring host CUDA build tag.
+# Install torch from the official CPU index first if a CPU-only wheel is needed. Clean install unverified here.
+numpy==2.4.6
+torch==2.6.0
+scipy==1.18.0
+scikit-learn==1.8.0
+matplotlib==3.11.0
+pydantic==2.13.2
+Pillow==12.2.0
+pytest==9.1.1
+psutil==7.2.2

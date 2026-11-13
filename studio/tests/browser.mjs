@@ -1,0 +1,32 @@
+import {chromium} from 'playwright';
+import {createServer} from 'node:http';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const root=path.resolve('dist');
+const server=createServer(async(req,res)=>{try{const file=path.resolve(root,'.'+decodeURIComponent(req.url==='/'?'/index.html':req.url.split('?')[0]));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return}const data=await readFile(file);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.md':'text/plain','.vtt':'text/vtt','.mp4':'video/mp4','.png':'image/png'})[path.extname(file)]||'application/octet-stream');res.end(data)}catch{res.writeHead(404).end()}});
+await new Promise(r=>server.listen(4178,'127.0.0.1',r));
+let browser;const results=[];
+try{
+ browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:4178');await page.waitForSelector('tbody tr');
+ await page.waitForFunction(()=>document.querySelector('.panel-top')?.textContent.includes('embedding'));
+ assert.match(await page.locator('h1').innerText(),/Programming/);results.push('PASS: rendered React and actual telemetry');
+ await page.getByRole('tab',{name:'03 GATE'}).click();assert.match(await page.getByRole('tabpanel').innerText(),/saturation/i);results.push('PASS: circuit stage selection');
+ await page.getByLabel('Compilation event',{exact:true}).fill('2');assert.match(await page.locator('.panel-top').innerText(),/end/);results.push('PASS: event scrubber changes tensor');
+ await page.getByLabel('Compilation event',{exact:true}).fill('0');
+ await page.getByRole('button',{name:'Play replay'}).click();await page.waitForTimeout(1400);assert.notEqual(await page.getByLabel('Compilation event',{exact:true}).inputValue(),'0');await page.getByRole('button',{name:'Pause replay'}).click();results.push('PASS: play/pause replay');
+ const count=await page.locator('tbody tr').count();await page.getByLabel('Method',{exact:true}).selectOption('WSP-Compiled');assert.ok(await page.locator('tbody tr').count()<count);results.push('PASS: method filter');await page.getByLabel('Method',{exact:true}).selectOption('All methods');
+ await page.getByLabel('Recorded edit').selectOption('1');results.push('PASS: edit control');
+ await page.locator('video').evaluate(async v=>{v.preload='metadata';v.load();if(v.readyState<1)await new Promise((resolve,reject)=>{v.onloadedmetadata=resolve;v.onerror=reject})});
+ assert.equal(await page.locator('video').evaluate(v=>v.duration),45);results.push('PASS: actual film metadata loads');
+ assert.equal((await page.request.get('http://127.0.0.1:4178/media/zerograd_subtitles.vtt')).status(),200);results.push('PASS: film captions available');
+ await mkdir('qa',{recursive:true});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'qa/hero.png',fullPage:false});await page.screenshot({path:'qa/desktop.png',fullPage:true});
+ for(const link of await page.locator('.resource-links a').evaluateAll(nodes=>nodes.map(n=>n.href))){assert.equal((await page.request.get(link)).status(),200)}results.push('PASS: research document links');
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'qa/mobile.png',fullPage:true});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);results.push('PASS: mobile has no horizontal overflow');
+ await page.getByRole('button',{name:/Reduced motion/}).click();assert.equal(await page.getByRole('button',{name:/Reduced motion/}).getAttribute('aria-pressed'),'true');results.push('PASS: reduced motion control');
+ assert.deepEqual(errors,[]);results.push('PASS: no browser runtime errors');
+ await writeFile('qa/results.json',JSON.stringify({passed:results.length,failed:0,checks:results},null,2));console.log(results.join('\n'));
+}finally{await browser?.close();server.close()}

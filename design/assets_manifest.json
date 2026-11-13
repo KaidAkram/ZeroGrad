@@ -1,0 +1,101 @@
+{
+  "license": "MIT for original generated graphics; system fonts not redistributed",
+  "sources": [
+    "scripts/report.py",
+    "scripts/render_video.py",
+    "telemetry/benchmark_results.json",
+    "telemetry/weight_write_stream.json"
+  ],
+  "assets": [
+    {
+      "path": "design/slides_svg/carousel_01.svg",
+      "bytes": 2060,
+      "sha256": "c7fe817cba26d2d01ae518fc5370c5c83f9d498a1b561cdb644548ce4dcc413a",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "design/slides_svg/carousel_02.svg",
+      "bytes": 1988,
+      "sha256": "2d8ee57445e29c50e281f26033d90a01c3a63efef9efe550b8761d45feead1bd",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "design/slides_svg/carousel_03.svg",
+      "bytes": 1260,
+      "sha256": "def09afb5cc02b612a615ec2b07047f4ce1f473e9ff5a52a60a5ace426babc89",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "design/slides_svg/carousel_04.svg",
+      "bytes": 1082,
+      "sha256": "54b63dd91466f266a4097a02941d7fbbd5ed7a9e4cd80140bb2dff8d2f8953fa",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "design/slides_svg/carousel_05.svg",
+      "bytes": 909,
+      "sha256": "ade7372c988938a397116ab0096d89c8063ea3b57d57beaf313dbdb498757e13",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "design/slides_svg/carousel_06.svg",
+      "bytes": 725,
+      "sha256": "4218e7d1b3734760afa5714ec111092e2124ff6650b34b341c9a4a8eed410472",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_01.png",
+      "bytes": 47561,
+      "sha256": "758dcff9d06b35649173050dad2ee45e9bd9a4c8d8678a3150c64e588ef26c2a",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_02.png",
+      "bytes": 70199,
+      "sha256": "dec0a59ac90bb037efd41d1e0576c7b776086a032106e8960e470e75c97d6edf",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_03.png",
+      "bytes": 46312,
+      "sha256": "214b5a7cb6a0473e210fb54e1ec5dcb3905cdba3f59165a12aceb08f7235a5bf",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_04.png",
+      "bytes": 47424,
+      "sha256": "3e7e8680de4c07a085754d749e45376285aca1b2c0586063777f0544f2ba6cba",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_05.png",
+      "bytes": 53722,
+      "sha256": "be1bb54b8f477b091e5bd45a8d6ea483124a824bbe35eee885b02c9aab323268",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_06.png",
+      "bytes": 47574,
+      "sha256": "2ee76d64773a1ecd3d70e5b4456573943cbb72ae6695f37851c7d2137ca23911",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/carousel_montage.png",
+      "bytes": 140933,
+      "sha256": "ca202824035c6c0354bf268e9fc2f6f89e0fa39a1b293eb8b21e948a81c05884",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/opengraph.png",
+      "bytes": 32448,
+      "sha256": "1f5ce58ef9e3db235d70913dd3f9e4dfa67a2164c2a4976f600349f285dc4d26",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    },
+    {
+      "path": "outputs/zerograd_reel_poster.png",
+      "bytes": 47647,
+      "sha256": "c073dadd3d4b3973fc9218c9f435c415704363f22974f2bafe1571d4c59e6d96",
+      "provenance": "original code-generated illustration; SVG variants are editable, not pixel-identical raster exports"
+    }
+  ]
+}

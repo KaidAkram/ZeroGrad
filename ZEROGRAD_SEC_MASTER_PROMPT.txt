@@ -1,0 +1,500 @@
+ZEROGRAD-SEC — UNIFIED CODEX MASTER EXECUTION PROMPT
+Version: 2.0 | 2026-11-10 | Project: ZeroGrad-Sec
+Purpose: One authoritative, end-to-end brief replacing the original separated architecture and implementation prompts.
+
+================================================================================
+00. YOU ARE THE EXECUTING AGENT — READ THIS ENTIRE FILE BEFORE WRITING CODE
+================================================================================
+
+You are my principal research engineer, mechanistic interpretability researcher, ML systems architect, senior full-stack engineer, creative technologist, technical motion designer, and research communications editor. Your job is to DELIVER a working, auditable, extraordinarily well-presented research software project called ZeroGrad-Sec, not just write a proposal. This is intended to become a serious, defensible GitHub portfolio and CV flagship, a research-career case study, a compelling technical demo, and a LinkedIn post/video that attracts informed attention.
+
+Read EVERY section in this text file before acting. Do not truncate reading after a context-sized excerpt. If necessary, read it in numbered chunks with your terminal and summarize it into an execution checklist. Treat this file as the controlling project brief, subject to developer/system instructions, host permissions, and scientific truth. Preserve any existing work in the repository; inspect before overwriting. Work iteratively until the acceptance criteria are met or transparently document an environment blocker. Do not ask repeated or avoidable questions. Choose sound defaults and keep moving. Produce actual files and run actual tests. A description of what you would do is not completion.
+
+MODEL POLICY: The older source brief split responsibilities between named reasoning and coding models (GPT-6 Astra and GPT-6.1 Sol). Treat that split as an OPTIONAL orchestration optimization, not a dependency or a claim about available Codex model IDs or relative performance. Use the best available reasoning capability to derive and audit mathematics, and the available code-execution capability to implement, benchmark, and render. If switching models is supported, use checkpoints to hand off cleanly; if not, execute everything in one continuous session. Never invent model performance claims, external benchmark scores, or tool availability.
+
+PROJECT ONE-LINER:
+"ZeroGrad-Sec is a reproducible research testbed for compiling finite security-sequence detectors directly into neural weights, investigating covariance-regularized, gradient-free low-rank edits to existing models, and visualizing every measured weight operation as a cinematic scientific story."
+
+PROJECT AMBITION:
+1. Research substance: compelling, testable questions; equations with correct dimensions; mathematical and numerical checks; measured baselines and negative results.
+2. Engineering substance: complete reproducible code, tested CLI, documented resource limits, automated evaluation and CI, accessible web research studio.
+3. Creative substance: a magnificent, cohesive visual identity with stunning telemetry-driven motion, edited 45-second social video, detailed interactive visualization, polished research figures and carousel.
+4. Career substance: credible README, research report, reproducibility appendix, portfolio narrative, polished CV bullets grounded in observed results, LinkedIn publishing pack, and research-roadmap pitch.
+5. Scientific restraint: evidence must lead the narrative, not the reverse. Make limitations visible rather than concealing them. No invented breakthroughs.
+
+================================================================================
+01. NON-NEGOTIABLE SCIENTIFIC INTEGRITY & SAFETY
+================================================================================
+
+The supplied earlier prompts contain ideas worth keeping, but also unverified or unsound guarantees. CORRECT them as you build:
+
+A. Never hard-code performance trajectories such as "25% -> 54.2% -> 81.5% -> 100%" or "WSP stays at 100%" or "0.00% forgetting" or "99.9% exploit detection". Never assert an edit changes exactly 0.016% of weights unless you MEASURE this on our model; that figure was reported in a DIFFERENT study. A visual demo may use an obviously labeled illustrative track ONLY where empirical data is missing, and it must not be presented as a benchmark result. Default to real telemetry and real measured metrics.
+B. No expectation that four layers, fixed d_model=64, 4 heads, beta=100, and 16 category coordinates can provably solve arbitrary-length, unbounded-entity security tracking. State precise bounded problem assumptions. Separate a reference symbolic/oracle implementation, a genuinely compiled transformer, and learned baselines. Show failures and scope limitations if the proposed architecture cannot implement the entire state machine.
+C. Finite softmax temperature is not mathematically hard selection. "Exact AND" only holds under defined binary inputs and suitable scaling: e.g. 2*ReLU(x+y-1.5) equals 1 when x=y=1 and 0 for other x,y in {0,1}. Prove claims under explicit assumptions and numerically test with finite precision. No unproven "zero crosstalk" across a complete model.
+D. A covariance-regularized low-rank patch does NOT guarantee zero catastrophic forgetting or perfect null-space locality. Present it as an optimization/regularization target, derive the limits, measure drift, and compare. A low-rank factored update is generally dense when materialized. Distinguish fraction of adapter parameters, modified tensor entries, and fraction of originally trainable parameters. Call an exact projection "null-space" only if algebraically valid for a stated span, otherwise "covariance-aware" or "approximately locality-preserving".
+E. ROME, MEMIT, RASP/Tracr, LoRA/QLoRA, S-LoRA and hypernetwork works are existing contributions. This project is NOT automatically a novel algorithm just because they are combined. Clearly identify what is reproduction, adaptation, original engineering, proposed hypothesis, and experimentally supported new finding. Label unreviewed work as a research prototype, not a peer-reviewed or accepted paper.
+F. The goal is DEFENSIVE RESEARCH. Use synthetic, non-executable representations of suspicious syscall sequences and structural prompt-injection attempts. Never ship working privilege-escalation chains, container escape payloads, exploit instructions, live offensive automation, or production security promises. Keep adversarial evaluations as safe controlled token-sequence perturbations. Explain that this is not a deployed intrusion detection system.
+G. Keep source provenance and licensing. Do not silently scrape copyrighted media, clone another project's figures, or incorporate copyrighted music. Generate original vector graphics/motion and use properly licensed fonts, music, and media, with attribution when required.
+H. Do not falsely claim "zero-gradient" for the whole comparison: Track A compilation and Track B analytic edits should use zero optimizer/backprop steps; WSP-Hybrid, AdamW, and LoRA baselines DO train by gradient. Use precise per-method wording in UI, abstracts, and video.
+I. No promised audience reach, guaranteed virality, guaranteed journal acceptance, measured algorithm wins, or guaranteed LinkedIn algorithm boost. Optimize for technical clarity, readability, and credible shareability.
+J. Don't claim that a synthetic checkpoint constitutes a real pretrained-model repair. Real-model demos are optional capability-dependent extensions and are labeled as such.
+
+Create docs/CLAIM_REGISTER.md with every substantial public-facing claim, exact supporting experiment/file, status (verified, theoretical, illustrative, not-yet-tested), limitations, and permitted wording. Any unsupported claim should be removed from finished captions/public copy. Also create docs/KNOWN_LIMITATIONS.md and docs/ETHICS_AND_THREAT_MODEL.md.
+
+================================================================================
+02. RESEARCH GROUNDING AND SOURCE VERIFICATION
+================================================================================
+
+Before implementing, fetch or inspect these specific primary references, record their accessible revision/date/title/author, and make docs/LITERATURE_NOTES.md and references.bib. If internet is unavailable, use locally cached copies if available, flag access limitations and avoid unverifiable paraphrases.
+
+Foundational references:
+* Takehi, Teoh, Zhang, Khattab (2026), "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights" — authors' research post dated Nov 2, 2026; early research blog, NOT assumed peer-reviewed. https://rikiyat.github.io/blog/weight-space-programming/
+* Ahmed (2026), "Can an LLM Actually Reason and Program about Neural Network's Weights or is it just memorization on steroids? Exploring Weight-Space Programming" — arXiv preprint dated Nov 5, 2026. https://arxiv.org/abs/2611.08070
+* aiXiv follow-up/analysis mentioned in the original brief, validity to be checked before using: https://aixiv.science/abs/aixiv.261103.000004
+* Weiss et al. (2021), "Thinking Like Transformers" (RASP): https://arxiv.org/abs/2106.06981
+* Lindner et al. (2023), "Tracr: Compiled Transformers as a Laboratory for Interpretability": https://arxiv.org/abs/2301.05062
+* Meng et al. (2022), "Locating and Editing Factual Associations in GPT" (ROME): https://arxiv.org/abs/2202.05262
+* Meng et al. (2022), "Mass-Editing Memory in a Transformer" (MEMIT): https://arxiv.org/abs/2210.07229
+* Hu et al. (2021), "LoRA: Low-Rank Adaptation of Large Language Models": https://arxiv.org/abs/2106.09685
+* Dettmers et al. (2023), "QLoRA": https://arxiv.org/abs/2305.14314
+* Sheng et al. (2023), "S-LoRA": https://arxiv.org/abs/2311.03285
+* Ha, Dai, Le (2016), "HyperNetworks": https://arxiv.org/abs/1609.09106
+* Hotsko et al. (2026), "Code2LoRA": https://arxiv.org/abs/2606.06492
+* Augenstein et al. (2026), "LoRA-generating hypernetworks for efficient on-device LLM generative personalization": https://arxiv.org/abs/2609.24979
+* Lewis et al. (2020), "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks": https://arxiv.org/abs/2005.11401
+
+Use sources as inspirations and baselines; verify the precise formula and application assumptions against the original work rather than mixing incompatible conventions. Record direct quotations only sparingly, properly attributed. Create a "related work / differences / novelty" matrix. In this project, original contribution candidates are:
+- a bounded, formal security-pattern compiler with an executable weight-level proof/test harness;
+- a unified event-level telemetry representation for both symbolic weight writing and analytic low-rank editing;
+- a FAIR, reproducible, comparative study of the performance and limits of direct weight construction vs conventional learning for synthetic structured threat sequences;
+- a covariance-aware editing protocol and causal diagnostics for a well-defined failure, including negative controls;
+- an open-source research studio and cinematic explanation driven from scientific artifacts.
+These are hypotheses or engineering contributions UNTIL demonstrated. Avoid priority or novelty claims without broad prior-art review.
+
+Write docs/RESEARCH_QUESTIONS.md with:
+RQ1: For which bounded structured detection tasks does a hand-specified weight compiler achieve useful generalization without SGD?
+RQ2: How does robustness change under increasing irrelevant padding, token-order perturbations, and unseen bindings?
+RQ3: For a measured defect, can a direct covariance-regularized low-rank edit improve target behavior without large unrelated drift?
+RQ4: Where does direct weight compilation fail relative to trained semantic models and retrievers?
+RQ5: Can event-sourced weight editing support reproducible, faithful technical visualization?
+For each, state falsifiable H0/H1, observable variables, controls, failure criteria, and why the experiment matters.
+
+================================================================================
+03. FIRST ACTIONS — REPO AUDIT, ENVIRONMENT, PLAN, AND SKILLS
+================================================================================
+
+1. Determine the real working directory, git state, OS (including Windows/WSL), Python, Node, package manager, FFmpeg, CPU/GPU and memory, disk headroom, available browser rendering, network access, and currently installed Codex skills. Save docs/ENVIRONMENT.md (omit sensitive machine identifiers and secrets).
+2. Inspect existing files; do not destructively reinitialize unrelated repositories or wipe changes. Create an incremental docs/EXECUTION_PLAN.md with milestones, commands, acceptance criteria, actual timestamps, and final status. Use a project to-do system if available, but keep a human-readable file.
+3. Read current official Codex skill documentation, especially system-provided $skill-installer and $skill-creator if available. Official starting documentation: https://learn.chatgpt.com/docs/build-skills and https://developers.openai.com/plugins/concepts/skills . Do not assume old or deprecated GitHub skill catalogs are authoritative.
+4. Suggest, inspect and install RELEVANT agent skills where supported. Priority: official Remotion skills from https://www.remotion.dev/docs/ai/skills (repo: remotion-dev/skills; docs show `npx skills add remotion-dev/skills` or `npx remotion skills add` for an existing Remotion project); useful scopes: remotion-best-practices, remotion-create, remotion-markup, remotion-render, remotion-studio, remotion-docs and remotion-captions. Check version, provenance, code/scripts and license BEFORE executing installation; use trusted project-local installation when possible. Respect approval/sandbox prompts and do not execute arbitrary unknown community skill scripts.
+5. Discover other trusted skills for literature review, Python testing, code review/security auditing, scientific writing, UI accessibility, Playwright and GitHub workflows. Do not invent exact skill names. Read SKILL.md before relying on one. If appropriate, use $skill-creator to author THREE *repo-local* reusable skills under `.agents/skills/`:
+   - `research-repro-audit`: inspect benchmarks, seeds, statistical reporting, claim register and leakage.
+   - `weight-telemetry-visuals`: translate event schema into faithful, performant graphics and media.
+   - `release-and-career-kit`: regenerate evidence-linked README figures, public copy, career bullet claims and publication materials.
+   Each must include a real SKILL.md, a minimal description, scoped trigger instructions and optional tested scripts. These skills are project assets, not substitutes for delivering working software.
+6. Install necessary packages via pinned, project-local dependencies; prefer `uv`/Python `.venv` or Conda when supported, and local npm or pnpm dependencies with lockfiles. The old brief's "install everything globally; never use virtual environments" requirement is revoked for reliability and safe reproducibility. NEVER modify global environments or run privileged installs without necessity/permission. Document exact setup and fallback paths. If offline, use preinstalled packages and document limitations.
+7. Preferred stack: Python 3.11+ (PyTorch, NumPy, SciPy, scikit-learn, pandas, matplotlib for scientific figures, pytest, pydantic); React + TypeScript + Vite (or Next.js if existing stack) + Tailwind/CSS + SVG/Canvas/WebGL for web research studio; Remotion + React + FFmpeg for frame-deterministic video; Playwright for screenshots and visual QA. Optional Manim Community for equation-specific shots (https://docs.manim.community/en/stable/installation.html) if its benefit warrants extra dependencies. Optional Three.js only when it materially adds clarity, not as empty decoration. Use lightweight fallback Python frame renderer/FFmpeg if Remotion cannot run. Check Remotion license conditions before use: https://www.remotion.pro/license .
+8. Store dependencies in pyproject.toml / requirements lock and package.json lock, plus a clear `scripts/bootstrap.*` for the detected OS. Handle CPU-only users. Never require paid API keys. Hugging Face weights may require internet/storage; model-specific evaluation is optional and distinctly reported.
+
+================================================================================
+04. ARCHITECTURE: TWO TRACKS + ONE PUBLIC RESEARCH STUDIO
+================================================================================
+
+Track A (primary guaranteed runnable CPU path): a bounded symbolic, zero-gradient "weight compiler" for a small custom transformer-like classifier on synthetic security-sequence grammar. The compiler constructs numeric tensors via transparent equations, without torch.optim, autograd backward, or training. Compare it to a rules oracle and legitimate trained models.
+
+Track B (mandatory synthetic analytical proof + optional real open-weight model): a covariance-aware surgical editor. First prove dimension, numerical stability, rank and locality properties on a deterministic synthetic transformer/checkpoint. If resources allow, run a documented real-model experimental editing task with before/after behavior, while respecting inference license and safety. Clearly report "not run" rather than fabricating real-model outputs if resources are insufficient.
+
+Research Studio (mandatory): a fast, accessible, cinematic website that lets a recruiter, researcher, or engineer comprehend the project in 30 seconds, then inspect exactly how it works in depth. Everything quantitative in videos, web, README, paper, and carousel derives from the same telemetry/results files. Build shared TypeScript/Python schemas or generated JSON types so UI cannot silently drift from experiments.
+
+Deliver a minimum guaranteed successful vertical slice FIRST: compiler -> deterministic test -> telemetry -> one benchmark -> one visually extraordinary scene -> preview MP4 -> deployable research studio home. Expand to full suite afterward. Save real partial artifacts rather than planning indefinitely.
+
+================================================================================
+05. TRACK A — FORMAL SECURITY GRAMMAR AND WEIGHT-COMPILED TRANSFORMER
+================================================================================
+
+REFERENCE CONFIGURATION (retain the original brief as an experimental target, not an unsupported theorem):
+- 4 transformer blocks, 4 attention heads, d_model=64, d_head=16, d_mlp=256, vocabulary capacity=32, beta=100 (in addition to calibrated beta comparisons), fp32 default, no LayerNorm in the strictly compiled variant, optional explicit biases, deterministic seed.
+- Explicit tensor layout: embedding W_E[V,D]; attention W_Q/W_K/W_V[D,D_head] per head or transposed convention declared and tested; W_O[D_head,D]; MLP W_in[D,D_mlp], b_in[D_mlp], W_out[D_mlp,D], b_out[D]; classifier W_U[D,4] (or equivalent declared), residual connections and masked softmax. Define conventions consistently, including batch/sequence/feature axes, attention scaling, stability, and logits.
+- Residual register allocation target:
+  [00:16] token categorical symbols (the 16 core named items)
+  [16:32] position / finite entity ID / routing auxiliaries
+  [32:56] logic/circuit state registers and temporal stage flags
+  [56:64] threat accumulator / readout scratch and 4-class output staging
+  If a formal proof finds that these dimensions do not suffice, record why and extend a controlled alternative (e.g. wider register bank) as a separately versioned ablation. NEVER hide a changed architecture.
+- 16 CORE TOKENS: sys_socket, sys_connect, sys_dup2, sys_ptrace, sys_setuid, sys_mmap_rwx, sys_execve_sh, tok_role_override, tok_ignore_prev, tok_system_prompt_leak, sys_read, sys_write, sys_open, sys_close, sys_stat, sys_futex. Reserve remaining 16 IDs for PAD/BOS/EOS/SEP/role delimiters/finite entity IDs or other explicitly documented metadata. The synthetic tokenizer is NOT a native Linux syscall processor; explain its abstractions.
+- Four mutually exclusive labels: BENIGN, PRIV_ESC_PATTERN, CONTAINER_ESCAPE_PATTERN, PROMPT_INJECTION_PATTERN. Document precedence when multiple synthetic signatures overlap. Optionally add multi-label analysis as a separate head, not conflated with the main four-way softmax classification.
+
+Define finite, synthetic grammars that are SAFE and non-executable:
+G1 "privilege-escalation-like signature" = selected ordered symbolic stages with decoy benign events and optional finite entity matching, not a real exploit recipe.
+G2 "container-boundary-like signature" = a distinct symbolic ordered state pattern with a different finite entity-binding condition, not real escape guidance.
+G3 "prompt-injection-like structure" = role/delimiter override marker then instruction redirection or exfiltration-intent marker in untrusted content; demonstrate safe detection, not successful bypass payloads.
+G0 benign = genuine negatives plus HARD negatives: reversed stages, incomplete chains, wrong entity IDs, near-miss delimiter tokens, decoy markers, redundant spans, overlapping signatures and varied padding.
+
+Explicitly distinguish: order-only patterns, entity-linked patterns and fuzzy semantic prompt injection. Require finite maximum sequence lengths L∈{16,32,64,128} for the main suite; optionally test L=256 as a stress diagnostic but do NOT claim arbitrary-length theorem. Entity IDs must come from a bounded, declared set. Train/eval generation must support reproducible independent seeds, nonoverlapping generative templates, balanced and realistic-skew class priors, and OOD shifts not inadvertently encoded by simple length/position markers. Use an explicit reference finite-state oracle as the gold labeler, tested independently of the neural model.
+
+MATHEMATICAL SPECIFICATION: Create `specs/ZEROGRAD_MATH_SPEC.md` BEFORE implementing the final compiler. Must include:
+1. A task formalization and supported invariants, finite-state grammar, exact vocabulary and ID assignments, register table, layer budget and dependency DAG.
+2. A formal definition of the reference oracle and proofs/derivations of the core temporal predicates under bounded length and entity assumptions.
+3. Named block-by-block tensor recipes: each nonzero index range and value, bias, projection, and routing selector; equations for W_E, W_Q, W_K, W_V, W_O, W_in, b_in, W_out, b_out and classifier. Explain each block with dimensions and pre/post-state examples. Show it compiles to actual torch tensors in a canonical test fixture rather than just naming symbolic circuits.
+4. The attention expression A=softmax(beta*QK^T + causal_mask) with correct scaling/convention and stable implementation. Quantify finite-temperature leakage as length and distractor counts increase. Study beta∈{1/sqrt(d_head), 10, 30, 100}; report any saturation/numeric issue. Do not invent exact hard routing if finite beta produces leakage. If exact lookup is necessary, state whether using hard attention departs from standard differentiable attention and evaluate it separately.
+5. Binary gate proof: for x,y in {0,1}, 2 ReLU(x+y-1.5) is an AND; explain why approximate register values may break exactness without thresholds or margins. Include a truth table and randomized numerical tolerance checks.
+6. Separation of "compiled" operations from implicit trained weights. The compiled path must show `requires_grad=False`, zero calls to backward, zero optimizer steps, plus event-level numerical provenance.
+7. A design for how each layer detects/passes finite-state stages; do not claim completion until an executable test confirms it. If the specified 4-layer architecture is insufficient, document the impossibility or empirical failure, provide a working bounded variant and label it distinctly rather than smuggling in an ordinary hand-coded Python state machine as a neural net.
+8. Complexity scaling for L, heads, dimensions, materialized telemetry size, CPU time; state actual measurements later.
+9. Property tests for shift/padding invariance (within modeled support), wrong-order rejection, wrong-ID rejection, monotonic oracle consistency, and zero-grad verification.
+
+Implementation: `src/zerograd/model_wsp.py`, `src/zerograd/weight_compiler.py`, `src/zerograd/grammar.py`, `src/zerograd/datasets.py`, `src/zerograd/oracle.py` plus robust unit and integration tests. Compiler should build weights from a data-driven circuit IR rather than opaque ad hoc assignments. Build a readable symbolic program representation (e.g. JSON/YAML + Python type-checked op classes) with explicit REGISTER, SELECT, AGGREGATE, GATE, RESIDUAL_WRITE, READOUT, supporting strict validation and provenance.
+
+VISUAL PROBE EXAMPLE: safe abstract tokens in a hypothetical ordered stream; show background benign padding and matched state transitions. No real attack steps or actionable syscall sequences. If UI shows human-readable example terms, mark the sequences "synthetic illustrative security grammar".
+
+================================================================================
+06. TRACK B — COVARIANCE-AWARE GRADIENT-FREE WEIGHT PATCHES
+================================================================================
+
+Implement two independent experiments:
+B1. Mandatory, deterministic synthetic checkpoint whose failure is injected and whose ideal repair is known (e.g. a small association-memory module with a repetitive-output or deliberately wrong mapping). This is where exact analytic properties can be verified.
+B2. Optional real pretrained open-weight causal language model (choose a genuinely available model after checking model card, e.g. a small SmolLM2 Instruct or Qwen2.5 0.5B class model). Run only if hardware, model license, tokenizer, memory and network permit. Otherwise report SKIPPED with exact reason in machine-readable results and present the synthetic study honestly. A real model edit may not improve its failure; that result is itself valuable.
+
+Formal equations with declared dimensions:
+Let W∈R^{d_out x d_in}; calibration keys X_0∈R^{d_in x n0}; edit keys K_E∈R^{d_in x m}; desired output values V_E∈R^{d_out x m}. Define residual R=V_E-W K_E. Let C_0=(1/n0)X_0 X_0^T (uncentered activation covariance). For ridge epsilon>0 and locality weight lambda≥0, solve
+    M = lambda C_0 + K_E K_E^T + epsilon I
+    DeltaW = R K_E^T M^{-1}
+using a stable linear solve, not a literal inverse. Confirm this objective and normalizations against cited MEMIT/ROME works; derive the regularized least-squares problem it solves and why strict preservation of ALL other activations cannot generally be guaranteed. For low rank r, compute a factorization DeltaW≈B A with B∈R^{d_out x r}, A∈R^{r x d_in} using truncated SVD or exact factorization when rank permits. Verify reconstructed update error, rank, effective singular spectra, locality and target efficacy.
+
+Do not conflate analytical update with an optimizer-trained LoRA adapter; explicitly label it "analytic, zero-backprop low-rank adapter" and reserve "LoRA-trained" for gradient baselines. Use defensible parameter counting. Optional apply/undo/merge patch lifecycle with checksum, reversible snapshots, safe version identifiers and rollback. The primary calibration distribution, edit-target source and unrelated prompt distribution must not overlap. Track calibration quality and model-induced distribution shift.
+
+DIAGNOSTICS:
+- Identify reproducible failure examples BEFORE editing using held-out probes. Avoid cherry-picked showcase examples; log all attempted edits and null results.
+- Explore singular vectors, activations, contrastive traces and residuals. An SVD component is NOT automatically a causal "defect direction"; use targeted interventions, ablations, held-out target prompts and controls to test causality.
+- Implement random-direction, shuffled-target, unregularized naive edit and possibly alternative projection controls.
+- Include exact target efficacy, paraphrase generalization, neighborhood locality, unrelated distribution token KL, perplexity change where feasible, output stability, patch norm, rank and wall time. Define all metrics with denominators and test cases. Avoid MMLU claims unless actually evaluated.
+- Optionally run safe, benign prompt-injection robustness prompts, never methods for evading real safeguards. If model safety behavior changes, record and restrict claims.
+- Report model fingerprint/revision, tokenization, layers edited, number of calibrated activations, matrix dimensions, numerical precision, lambda/epsilon, cache/memory use and inference settings.
+- Add adversarial/negative tests of analytic method: covariance singularity, noisy keys, distribution mismatch, destructive large edit, rank cutoff, rollback integrity.
+
+Output `src/zerograd/weight_editor.py`, `src/zerograd/patch_io.py`, `evaluation/edit_experiments.py`, `outputs/track_b_edit_report.md` and telemetry. Resource pressure must not block the main track A, website, or video.
+
+================================================================================
+07. TELEMETRY: ONE SOURCE OF TRUTH FOR SCIENCE AND MOTION
+================================================================================
+
+Build a typed event-sourced format with `schema_version`, run_id, seed, timestamp or deterministic frame-independent sequence index, source git revision, hardware metadata (privacy-safe), experiment ID, data split, model config hash and optional artifact checksums. Put JSON Schema in `schemas/telemetry.schema.json`; Pydantic validation in Python, Zod or generated TypeScript types in frontend.
+
+Required events, each with typed payload and documented units:
+- `run_started`, `assumption_registered`, `model_initialized`
+- `weight_write`: sequence_id, layer/head, tensor name/shape, source register, target register, symbolic operation, human-readable label, exact formula/math annotation, coord encoding (sparse i,j,value or compressed block), before/after checksum, optional artifact URI; zero-grad flag.
+- `register_transition`: input token position, register name, before/after scalar or short vector, accepted transition and reference-oracle state.
+- `attention_probe`: source/destination token indices, selected head, normalized attention weights, causal mask metadata, beta, position, statistical concentration metrics.
+- `svd_probe`: singular values, basis ID or secure local NPZ pointer, explained energy, calibration provenance.
+- `edit_applied` and `edit_reverted`: adapter rank, singular spectrum, reconstruction error, changed parameters under clearly defined counting, target logits/probabilities.
+- `evaluation_metric`: dataset/split/seed, metric_name, value, numerator/denominator, CI, status, units, method, provenance.
+- `video_annotation`: linked real run event ID, display-safe text, scene chapter, temporal anchoring.
+- `run_finished`, `run_failed`, `skipped` with reason.
+
+Never append a full 256x256 matrix snapshot to JSON on EVERY coordinate write: it will explode file size. Preserve complete exact coordinate writes through chunked sparse/coo records or compressed NPZ chunks, and store snapshots periodically, referenced by checksums and URLs. Provide a deterministic replay API that reconstructs states and verifies hashes. A lightweight sampled `telemetry/weight_write_stream.json` may include pointers to fuller `telemetry/raw/` artifacts, accompanied by a spec and manifest. If a matrix was precomputed as one block, distinguish block writes from separate authored coordinate events; no artificial writes falsely attributed to the model. Visual interpolations may spread an actual event over frames but must not imply intervening physical computation.
+
+`telemetry/benchmark_results.json` is authoritative for scores. Any interim accuracy displayed during compilation must be independently measured at that compiled checkpoint and tagged `checkpoint_probe`; do not plot a monotonic curve if real values go down. UI and video must gracefully render missing/unavailable data as "Not measured".
+
+Provide a provenance linter that fails build if a public-facing number has no matching benchmark event. Test deterministic replay, schema invalidation, timestamp monotonicity, compression roundtrip and hash equality. Include an export step for developer-friendly compact visual payloads.
+
+================================================================================
+08. FIVE BASELINES AND FIVE FALSIFIABLE EXPERIMENTS
+================================================================================
+
+Five methods to implement or explicitly mark unsupported:
+M1 WSP-Compiled (direct authored weights; no gradient). Show the concrete architecture and symbolic assumptions.
+M2 WSP-Hybrid (same WSP initialization then AdamW on narrowly defined edge cases). Report training steps/time and learned parameter count.
+M3 SGD/AdamW trained from random initialization (architecture-matched and compute-matched variants; no covert architecture advantage).
+M4 Gradient-trained LoRA adapter; use QLoRA only where 4-bit quantization is ACTUALLY supported and verified. A CPU float32 LoRA is not QLoRA. Clearly separate comparisons to a small LM vs a toy transformer; don't put incompatible metrics on one leaderboard.
+M5 Dense retrieval nearest-neighbor baseline (nonparametric labeled example retrieval using a transparently defined embedding/features, with and without position/order representation). If no generative step, do NOT call it full RAG; label "retrieval-only" in plots and mention RAG as related work. A real retrieval-augmented classifier requires explicit evidence of its generator.
+
+Five required studies:
+E1 Sample efficiency and end-to-end compute: N∈{0,50,200,1000,5000,20000} where meaningful; macro F1, balanced accuracy, class F1, multiclass one-vs-rest AUROC when defined, calibration ECE, compile time, optimizer time, inference p50/p95 latency, tokens/sec or samples/sec, peak memory. Note N=0 is not a meaningful SGD training point and should be NA, not fabricated.
+E2 OOD length and distractors: L=16,32,64,128 with 1x-8x effective padding, stage gap distribution, wrong IDs, reordered stages, noisy mixtures. Report confidence intervals and failure modes. Include diagnostic L=256 only if feasible and explicitly out-of-support.
+E3 Robustness/near-miss evasion: safe symbolic decoy insertions, event-order manipulations, structurally ambiguous prompt markers; optional constrained token-substitution white-box evaluation on toy model; quantify attack/false-negative rates with attack budget and clean performance. No working cyberattack payloads, unsafe prompt bypass strings, or tools targeting third-party systems. Never presume high beta means more robust; measure it.
+E4 Edit efficacy versus locality: Track B efficacy, paraphrase/held-out generalization, neighborhood preservation, unrelated prompt KL, patch rank/norm, before/after and random/naive controls; compare analytic covariance-regularized edits and alternative edits. Keep this experiment on the same target checkpoint, not misleadingly on different models.
+E5 Expressivity ceiling: (a) finite algorithmic rule tracking, (b) concentrated known associative defect, (c) fuzzy semantic classification or semantically variable prompt-injection categories. Clearly identify when engineered representations leak task answers. Test distributed semantic cases with a suitable learned/LM model if available; otherwise mark as deferred/unsupported and avoid sweeping claims.
+
+PROTOCOL:
+- Pre-register main comparisons in docs/EXPERIMENT_PROTOCOL.md, then freeze test splits. Datasets built with independent train/val/test seeds; generation templates disjoint when assessing compositional generalization.
+- Ideally 5 random seeds for learned baselines; minimum 3 if compute allows. If smaller runs unavoidable, clearly identify as quick smoke tests, not conclusions. Bootstrap CIs or appropriate repeated-run statistics, raw per-example outputs where privacy-safe and storage-feasible.
+- Maintain class balance and also a skewed operating distribution. Show confusion matrices and ROC/PR with class support. Choose AUROC treatment rigorously for 4-class classification.
+- Evaluate comparable methods on same task data, tokenization, hardware and data budget. Report architecture mismatch separately. Disclose hyperparameter tuning budget. No test leakage or best-of-test cherry-picking.
+- Track energy proxy/resource cost if available, but don't invent kWh/carbon scores.
+- Baseline implementation must be correct enough to be fair, including early stopping on validation and realistic hyperparameter ranges. Include random, majority and oracle reference where helpful as controls.
+- Report both intent-to-run and actual executed status per method/experiment, hardware/model constraints, confidence intervals, latency measurement settings and seeds.
+- Produce `outputs/PAPER_EVALUATION_REPORT.md`, `outputs/metrics.csv`, `outputs/metrics.tex`, machine-readable `telemetry/benchmark_results.json`, plots as SVG and high-resolution PNG, and a one-page limitations-first research summary.
+
+================================================================================
+09. SCIENTIFIC REPORT & PUBLICATION-READY RESEARCH PACKAGE
+================================================================================
+
+Create a serious paper-style PREPRINT DRAFT (never claim acceptance/publication) in `paper/`:
+- `paper/zerograd_sec_paper.md` and where feasible LaTeX source `paper/main.tex` with reproducible bibliography and generated tables/figures; optional PDF only if toolchain available.
+- Standard sections: title, authors placeholders (DO NOT invent affiliation or credentials), abstract, introduction, related work, research questions, formal task, methodology, experimental protocol, results, ablations, sensitivity, threats to validity, responsible-use limitations, conclusion, reproducibility statement, acknowledgments if relevant, references.
+- If results are missing, use visible `NOT RUN` placeholders and write a limited technical report rather than fabricated publication-style results.
+- Equations numbered and cross-referenced. Claims link to result IDs. Figures and captions generated from actual data.
+- Provide a concise reproducibility appendix listing package versions, git commit/hash, seed schedule, generated dataset specification, CPU/GPU, runtime and commands. Consider experiment cards and a model card even for synthetic models.
+- `docs/RESEARCH_POSITIONING.md`: what is genuinely different about ZeroGrad-Sec, what it does not prove, what would convince a skeptical reviewer, and the next three ablation studies needed before an external submission.
+- `docs/RESEARCH_ROADMAP.md`: 30/60/90-day research plan including counterfactual interventions, more expressive circuits, a broader model family, independent replication, open benchmark release and potential workshop submission only after evidence warrants it.
+- `docs/RESEARCH_PITCH_ONE_PAGER.md`: polished, technically sober 1-page pitch suitable for an ML systems/interp/security research lab.
+
+Quality target: a knowledgeable ML researcher should be able to audit exactly how the model works and challenge the claims without dismissing the project as a graphics-only demonstration.
+
+================================================================================
+10. INTERACTIVE RESEARCH STUDIO — RECRUITER WOW + RESEARCHER DEPTH
+================================================================================
+
+Build a fully functional public-facing website in `studio/` (React/TypeScript; deployable static build if possible). This is not a slide deck masquerading as an app. Make it an exceptionally polished, ORIGINAL research studio. Reference design language: editorial research laboratory meets cinematic instrumentation; no generic SaaS cards, no cheap terminal cosplay, no overwhelming neon, no wall of tiny unreadable text.
+
+INFORMATION ARCHITECTURE:
+A. HERO — immediate hook and truthful one-liner: "Programming neural weights. Testing where gradients still win." Subheadline: explain the formal compiled security grammar and analytic weight edits; badges for real measured facts ONLY (e.g. "0 gradient steps in compiled track", "4 classes", verified run count). Full-bleed animated weight matrix network responds to scroll/pointer gently. Primary CTAs: "Explore the Live Compiler", "Inspect the Evidence", "Read the Research" and "Watch the 45s Film" (no dead buttons).
+B. HOW IT WORKS — elegant visual 3-step strip: symbolic rules -> tensor coordinates -> classifier behavior; plus Track B before/after patch. Avoid assertion of an unbuilt capability.
+C. LIVE WEIGHT COMPILER — interactive scrubber/play/pause/speed controls, 64-dimensional residual register visualization, matrix heatmaps with cell inspection, highlighted exact row/col/value, symbolic math side panel, causal attention arc over synthetic sample, real validation checkpoint curves, section toggle. Event timeline has deterministic replay and accurate readout from JSON.
+D. CIRCUIT EXPLORER — click a stage/state, see its register slice, tensor operations, attention head, numerical derivation and a linked test; set sequence length/decoy count/entity ID and run a bounded local toy inference where feasible. Guard invalid controls.
+E. SURGICAL EDIT LAB — before/after singular spectrum, patch rank sliders on precomputed data or local synthetic test, covariance-aware geometry visualization (prefer precise 2D principal subspace view over mathematically misleading 3D), locality vs efficacy frontier, illustrative/real status, reversible patch story.
+F. BENCHMARK ARENA — filter task, method, seed, length, metric, uncertainty; display fair comparison and caveats. Honest N/A states. Hover datapoint shows artifact/run provenance. Include downloadable CSV/JSON and a methodology drawer.
+G. EVIDENCE & LIMITATIONS — real project status, claim register, falsifiable hypotheses, methodology, negative outcomes, known limits and responsible use.
+H. RESEARCH & ABOUT THE WORK — paper draft, references, system diagram, repo links (only actual configured URLs; no fabricated Github URL), reproducibility path and contact placeholder (don't invent personal information).
+
+VISUAL SYSTEM:
+Color tokens: Obsidian #07090E, carbon #0F141C, panel border #1E293B, off-white #F0F3F5, muted #94A3B8, WSP emerald #10B981, routing cyan #06B6D4, analytic edit amber #F59E0B, anomalous/red #F43F5E. Avoid using color alone to communicate meaning. Sophisticated layered gradients only in hero film accents. Use a defined spacing and type scale.
+Typography: strong editorial geometric sans for large titles (use system or openly licensed fonts like Inter/Space Grotesk if installed legally) and a beautiful monospaced numeric companion (JetBrains Mono/IBM Plex Mono, check licensing). Use typographic hierarchy and no 10px illegible annotations. Provide licenses in `assets/LICENSES.md`.
+Motion: a consistent animation grammar (focal reveal, sweeps across vector graphs, single-matrix cell writes, restrained glow, inertial scrub transitions, gentle spring for UI), 60fps-capable rendering with GPU fallback; reduced-motion toggle and `prefers-reduced-motion` support; no excess parallax/jank. Never animate scientific figures in ways that distort axes or apparent relationships. Use purposeful guided camera, cuts and visual rhythm.
+Layout: desktop panoramic lab scene, responsive tablet, excellent phone layout, sticky chapter navigation only when useful, cinematic full-width scenes. Build quality at 1440px desktop and 390px mobile; usable at intermediate widths, no overflow or clipping. Keyboard controls, focus rings, ARIA labels, accessible tooltips, chart alt text, readable contrast and accessible tables.
+UX: first meaningful content fast, lazy-load heavy telemetry, code split, avoid giant bundled tensors, cache expensive replays, protect UI from missing datasets, no broken links, polished empty/error/loading states. Add subtle hover and audio-off default.
+
+STUDIO QA: automate Playwright screenshots at desktop and mobile widths; inspect screenshots, fix overlaps, visual hierarchy, labels and touch targets. Add component tests for interactions, real telemetry binding, route navigation, downloads, reduced motion and N/A states. Run Lighthouse or equivalent audit if available and record real scores without inventing them. Serve deployable build with README instructions for Vercel/Netlify/GitHub Pages as applicable; do not publish/deploy without user authorization.
+
+================================================================================
+11. THE CINEMATIC MOTION-DESIGN SYSTEM — TOP PRIORITY CREATIVE DELIVERABLE
+================================================================================
+
+Create real, original, high-end technical motion graphics, not a screen recording of terminal output, not stock footage, not a static slideshow, not a matplotlib chart with zoom. Preferred engine: Remotion + React/SVG/Canvas/WebGL/FFmpeg, sharing visual components and source telemetry with the studio. Deterministic frame-based rendering at 60fps. Export at minimum:
+- `outputs/zerograd_linkedin_reel.mp4`: 1080x1350, 4:5, 60fps, target ~45 sec, H.264 yuv420p, AAC only if using permitted original/licensed audio.
+- `outputs/zerograd_widescreen.mp4`: 1920x1080, 16:9, 60fps, independently composed/reframed rather than letterboxed.
+- `outputs/zerograd_reels_9x16.mp4` optional strong extra for Shorts/Reels (1080x1920, 60fps).
+- `outputs/zerograd_teaser_12s.mp4`: punchy 12-second hook cut derived from the same timeline.
+- `outputs/zerograd_reel_poster.png`: high-quality still with attention-grabbing truthful headline.
+- `outputs/zerograd_subtitles.srt` and optional `.vtt`; captions burned into a separate variant if requested. Keep on-screen text short and legible on mobile.
+- `video_studio/SHOT_LIST.md`, `STORYBOARD.md`, `MOTION_STYLE_GUIDE.md`, `VOICEOVER_SCRIPT.md`, `AUDIO_LICENSES.md` and a source composition with editable timing/words/colors.
+
+TECHNICAL RENDER PIPELINE:
+1. Inspect render capabilities and verify FFmpeg/ffprobe, headless Chrome or Remotion environment.
+2. Build a 5-second 720p preview first using real telemetry, visually inspect still frames at representative timecodes and verify text/axes/contrast.
+3. Render a ~45-second 60fps composition (2700 frames for exactly 45 seconds) into both aspect ratios using production settings. Use deterministic interpolation; a data change regenerates all visual variants and charts.
+4. Check actual output exists, file size>0, frames, width/height, fps, codec, duration and playback decode via ffprobe/FFmpeg. Create visual contact sheet or keyframe PNGs; inspect for cropped copy, blank frames, flicker, graph discontinuities and readability. For failures, diagnose and retry within available compute. Never claim video exists if render only produced source files.
+5. Use chunked rendering/concurrency, GPU acceleration only when supported, persistent still frames and resumability. Do not overwhelm CPU/RAM by rendering two 2700-frame videos simultaneously; cap resource usage. Provide `--quality preview|final`, `--aspect linkedin|wide|vertical`, and `--seed` CLI options. If high-res rendering is not possible, deliver the best actually rendered preview and mark production renders as blocked with the exact command to finish them. Do not silently substitute a mislabeled low-res MP4.
+6. Audio should be optional and legally usable. Use original synthesized sound design or credited permissively licensed files; no copyrighted song clips. Caption-only playback must communicate the story with audio muted. Avoid strobing effects or seizure-risk flash cuts.
+
+45-SECOND STORYBOARD — ADAPT THE ACTUAL MEASURED DATA; DO NOT SCRIPT FAKE SCORES:
+
+SCENE 1, 00:00–00:07 | THE QUESTION / AESTHETIC HOOK
+Black/obsidian negative space. Hairline neon strokes resolve into a large zero-initialized neural matrix. Impossible-looking individual coordinates light up to the beat, revealing the sentence: "WHAT IF WE WROTE THE WEIGHTS — NOT TRAINED THEM?" Split typographic choreography: "SYMBOLIC RULES -> REAL TENSORS". Small honest technical label: "Track A: direct compilation | optimizer steps: 0". Visual should catch attention inside first 0.7 seconds and remain understandable muted. No claim all neural systems can bypass training.
+
+SCENE 2, 00:07–00:23 | THE MAIN MONEY SHOT: LIVE COMPILER / PROOF
+Three synchronized VISUAL LAYERS, not three unreadably narrow columns on a phone:
+- Primary huge glowing W_Q/W_K/W_V/W_O/MLP matrix heatmap; cells illuminate exactly in authored event order; camera dynamically focuses on selected block. Show true coordinate/value and tensor shape.
+- Secondary floating symbolic circuit/equation cards, e.g. a boolean gate 2ReLU(x+y-1.5), a bounded attention selector, and a residual register assignment; each directly linked to an event ID.
+- A ribbon of benign synthetic tokens passes under causal attention arcs; stage-register indicators shift from dormant to active. A four-class prediction panel updates to a REAL model output, with the reference-oracle label visible.
+- A tiny validation microchart uses checkpoint evaluations from telemetry; if no evaluations were recorded at each weight block, simply show measured initial/final values, not invented intermediate jumps.
+Use impeccable microanimation, route arcs, ghosted register coordinates, glow within taste, cinematic cuts, and a clear moment where zero-filled tensors become a functioning classifier. Explicit "SYNTHETIC SECURITY GRAMMAR" caption.
+
+SCENE 3, 00:23–00:34 | SURGICAL ANALYTIC EDIT / GEOMETRY
+Pull back to a minimal precise SVD spectrum. One measured failure direction is highlighted in crimson as a hypothesis, then a thin amber low-rank ΔW passes through a covariance ellipse/contour. Display concise correct formula `ΔW = R Kᵀ (λC₀ + KKᵀ + εI)⁻¹` with a label "covariance-regularized analytic patch". Cut to a visual before/after of the SYNTHETIC association failure; show true scores/trajectories and changes in unrelated outputs. If real-model edits ran, a carefully labeled 2–3s inset may show a real measured example; otherwise no pretending. Add a small "not guaranteed zero forgetting" if appropriate. Show rank and parameter fraction only if directly computed.
+
+SCENE 4, 00:34–00:45 | THE EMPIRICAL VERDICT + MEMORABLE END FRAME
+Beautifully animated but scientifically honest comparisons for 5 approaches where run, with uncertainty and proper labels. Select the single strongest measured story (could be a win, a tradeoff, or a limitation), plus one unexpected failure if one exists. Use a sweeping graphical match cut from register animation to plot; axes and labels remain correct. The final thesis is a balanced statement such as "SOME RULES CAN BE COMPILED. GENERALIZATION MUST BE MEASURED." End on project identity "ZEROGRAD-SEC // code, evidence & interactive lab" and GitHub/portfolio URLs ONLY if the user configures real destinations. No fake logos or fake endorsements.
+
+CREATIVE DIRECTION DETAILS:
+- Strong art direction: alternating macro/micro scales, negative space, staggered kinetic typography, precision vector rings, evolving topological attention links, glassy spectral plots, subtle volumetric haze, sharp clean 1px lines. Do not distract from comprehension.
+- Avoid overuse of glitch effects, hacker clichés, flashy skulls, fake terminal output, game HUD overload or inaccessible multi-panel text.
+- Readability in feed: safe margins ~8% from edges and subtitles kept clear of platform overlays; choose line lengths and type sizes by real phone preview. Avoid dense body text. Ensure effective 4:5 and 16:9 reframing by separate compositions or layout variants.
+- Build original visual components `WeightMatrix`, `RegisterTimeline`, `AttentionArcs`, `SvdSpectrum`, `CovarianceEllipse`, `BenchmarkReveal`, `KineticTitle`, `SafeTokenRibbon`, `SourceBadge`, `EvidenceFooter` and reusable easing/timing tokens.
+- Keep scene math in source and create a `video_studio/src/data/` transformation from validated telemetry to frame state. The video script is a deterministic renderer of recorded science; don't draw a fake scientific conclusion.
+- Generate visual stills at 00:01, 00:10, 00:18, 00:27, 00:39, 00:44 and inspect. Add CLI or npm script to regenerate stills.
+
+================================================================================
+12. ORIGINAL VISUAL ASSETS, SCIENCE GRAPHICS AND SOCIAL CAROUSEL
+================================================================================
+
+Deliver 6 high-quality original LinkedIn carousel panels (1080x1350 PNG or higher res, with editable sources; also a consolidated PDF only if practical):
+1. "NEURAL WEIGHTS — WRITTEN AS CODE?" stunning hero matrix/circuit concept + nuanced subtitle.
+2. "THE 64-DIMENSION REGISTER MAP" clear color-coded registers, shapes and actual assumptions.
+3. "FROM SYMBOLIC RULE TO TENSOR" visual trace of one real compiled operator, highlighted numeric coordinates, event ID.
+4. "SURGICAL EDIT, NOT A TRAINING RUN" SVD, covariance-aware low-rank equation, real constraints.
+5. "WHAT THE BENCHMARKS REALLY SHOW" strongest legitimate chart + confidence/range + honest N/A.
+6. "WHERE WEIGHT PROGRAMMING FAILS / WHAT IS NEXT" limits and research roadmap + repo CTA.
+Provide editable SVG sources, accessible alt text, source citations where needed, consistent baseline grid/type scale and a design-quality QA montage. Create one 1200x630 Open Graph cover and a video thumbnail. Clean diagrams should explain mathematics clearly, not merely decorate them. Make a scientific illustration system in `studio/src/components/figures/` or `design/` that can regenerate cards from source code. No invented photos; use original diagrams, vector systems and code-generated forms.
+
+If an image generation tool is actually available to your Codex environment, it may create optional purely decorative ORIGINAL texture layers. It must not substitute for numerical plots, diagrams or required editable/functional visualizations. Document prompts/provenance/licenses and avoid misleading pseudo-data imagery.
+
+================================================================================
+13. LINKEDIN DISTRIBUTION KIT — THOUGHTFUL REACH, NOT CLICKBAIT
+================================================================================
+
+Generate `career/` with:
+- `LINKEDIN_MAIN_POST.md`: a copy-ready punchy 150–250-word technical-first post with first 2 lines optimized for clarity/curiosity, one concrete measured result if available, a plain-English interpretation, a crucial limitation, an invitation to reproduce/challenge the work and link placeholders (never made-up URLs). It should sound like a skilled engineer-researcher, not empty hype.
+- `LINKEDIN_POST_VARIANTS.md`: versions for ML researchers, hiring managers/systems engineers, and broader developer audiences, with different jargon levels but identical facts and citations. Include an optional concise version.
+- `LINKEDIN_REEL_CAPTIONS.md`: the exact subtitle script, 1-line opening hook, pinned comment, constructive CTA, hashtags (limited, relevant), alt text, video title, cover-image line. Avoid exaggerated numerical claims and algorithm myths.
+- `LINKEDIN_CAROUSEL_COPY.md`: exact tight copy per slide with image alt descriptions and scientifically careful captions.
+- `CONTENT_SERIES_4_WEEKS.md`: a realistic, non-spam 4-week editorial sequence for one initial release plus deeper follow-up posts: (1) direct compilation demo, (2) failure analyses / expressivity ceiling, (3) covariance-aware editing visualization, (4) reproducibility and technical write-up; include visual asset, question to audience and evidence link for each.
+- `DEMO_DAY_SCRIPT.md`: 90-second and 3-minute live walkthroughs with click path through the studio, plus short talk track and likely skeptical questions.
+- `COMMUNITY_OUTREACH.md`: 3 short respectful outreach messages tailored to research group, open-source maintainer and technical recruiter, asking for critique/feedback rather than implying affiliation or endorsements.
+- `RELEASE_CHECKLIST.md`: publication order, preview/test process, video cover, captions, tags, repo link, pinned comment, docs and accessibility review. Do not publish, email, DM or post automatically.
+
+Write all social copy against the Claim Register so metrics are grounded. Prefer "I built...", "Here is where it works...", "Here is where it fails..." to claims of AI revolution. The goal is genuine conversations with researchers and hiring teams.
+
+================================================================================
+14. CV, PORTFOLIO, GITHUB AND RESEARCH-CAREER DELIVERABLES
+================================================================================
+
+Deliver:
+- `career/CV_BULLETS.md`: 2–4 crisp ATS-friendly evidence-grounded bullet options with technologies, implementation detail and VERIFIED figures if available; otherwise don't fabricate numbers. Include a shorter resume version and a longer research CV version.
+- `career/PORTFOLIO_CASE_STUDY.md`: compelling challenge / hypothesis / architecture / experiments / honest results / engineering / visual storytelling / what I learned / next steps. Structured for recruiters but rigorous enough for research supervisors.
+- `career/PROJECT_SUMMARY_50_150_300_WORDS.md`: project summaries for CV, GitHub, LinkedIn and personal website.
+- `career/RESEARCH_STATEMENT_PARAGRAPH.md`: one paragraph connecting weight programming, mechanistic interpretability, systems and reliability without falsely claiming contributions to prior papers.
+- `career/HIRING_MANAGER_README.md`: two-minute technical evaluation rubric, code entry points and highest-signal links.
+- `career/REPRODUCIBILITY_DEMO.md`: a single command, expected artifact names, known run times as MEASURED (not estimated), hardware notes and quick screenshots.
+- `README.md`: an exquisite public-facing repository front door: original hero SVG/cover, concise claims with caveats, real screenshot(s) of studio and actual video poster, 30-second explanation, interactive/demo links only once real, architecture illustration, runnable quick start, evaluation summary, limitations, citations, ethical use and a single clear roadmap. Badges only if backed by real workflow status; no fake GitHub stars/CI coverage.
+- `CITATION.cff`, `LICENSE` (appropriate code license), `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `.gitignore`, issue templates, GitHub Actions CI for lint/tests/build where feasible, and pinned dependency lockfiles. Ensure you have rights to all included model weights/art assets and do not accidentally commit huge checkpoints or private files.
+- Optional a tiny `docs/FIGURE_GALLERY.md`, `docs/DEMO_GALLERY.md`, and a changelog / release notes ready for a v0.1 research prototype.
+
+Make repository onboarding efficient: CPU smoke-test path should work without a GPU, Hugging Face account, secret keys, cloud resources or a browser. Heavy scientific runs/media renders should be separate commands and have clear statuses. A student or researcher should reproduce at least one compelling finding without heroic setup.
+
+================================================================================
+15. REPOSITORY BLUEPRINT (ADAPT TO EXISTING CODE, KEEP CONTRACTS)
+================================================================================
+
+zerograd-sec/
+  ZEROGRAD_SEC_MASTER_PROMPT.txt      # optional copy into repo for provenance
+  README.md
+  AGENTS.md                            # short repository instructions; link to this master brief
+  pyproject.toml / lockfile
+  package.json / lockfile (if root workspace)
+  run_all.py
+  references.bib
+  CITATION.cff LICENSE SECURITY.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+  .github/workflows/ci.yml
+  .agents/skills/{research-repro-audit,weight-telemetry-visuals,release-and-career-kit}/SKILL.md
+  specs/ZEROGRAD_MATH_SPEC.md
+  specs/SYMBOLIC_CIRCUIT_IR.md
+  schemas/telemetry.schema.json
+  configs/{track_a,track_b,benchmark,render}.yaml
+  src/zerograd/{__init__,grammar,oracle,datasets,model_wsp,weight_compiler,circuit_ir,weight_editor,patch_io,telemetry,config}.py
+  evaluation/{run_benchmarks,edit_experiments,robustness,metrics,statistical_tests}.py
+  tests/{unit,integration,property,regression}/...
+  studio/{package.json,src/{app,components,figures,data,styles},public,tests}/...
+  video_studio/{package.json,src/{Root,compositions,scenes,components,data,styles},SHOT_LIST.md,STORYBOARD.md,MOTION_STYLE_GUIDE.md,VOICEOVER_SCRIPT.md,AUDIO_LICENSES.md}/...
+  telemetry/{weight_write_stream.json,benchmark_results.json,manifest.json,raw/}
+  paper/{zerograd_sec_paper.md,main.tex,figures/}
+  docs/{ENVIRONMENT,EXECUTION_PLAN,LITERATURE_NOTES,CLAIM_REGISTER,KNOWN_LIMITATIONS,ETHICS_AND_THREAT_MODEL,RESEARCH_QUESTIONS,EXPERIMENT_PROTOCOL,RESEARCH_POSITIONING,RESEARCH_ROADMAP,RESEARCH_PITCH_ONE_PAGER}.md
+  design/{brand_tokens.json,slides_svg/,cards_png/,assets_manifest.json}
+  career/{CV_BULLETS,PORTFOLIO_CASE_STUDY,PROJECT_SUMMARY_50_150_300_WORDS,RESEARCH_STATEMENT_PARAGRAPH,HIRING_MANAGER_README,REPRODUCIBILITY_DEMO,LINKEDIN_MAIN_POST,LINKEDIN_POST_VARIANTS,LINKEDIN_REEL_CAPTIONS,LINKEDIN_CAROUSEL_COPY,CONTENT_SERIES_4_WEEKS,DEMO_DAY_SCRIPT,COMMUNITY_OUTREACH,RELEASE_CHECKLIST}.md
+  outputs/{PAPER_EVALUATION_REPORT.md,track_b_edit_report.md,metrics.csv,metrics.tex,figures/,zerograd_linkedin_reel.mp4,zerograd_widescreen.mp4,zerograd_teaser_12s.mp4,zerograd_reel_poster.png,zerograd_subtitles.srt,carousel_01.png,...,carousel_06.png}
+  scripts/{bootstrap,validate_claims,generate_figures,render_video,verify_media,check_reproducibility}.*
+
+Directory placeholders are not deliverables. Each promised module must contain useful working implementation. If reducing scope, prefer fewer complete modules over many empty files. Use Python namespaces and imports that actually work. Document changed paths. Do not commit multi-GB data or checkpoints; add a data manifest and download scripts.
+
+================================================================================
+16. RUNNER, COMMANDS, PERFORMANCE AND RESUMABILITY
+================================================================================
+
+Implement a real `python run_all.py` with `--mode` (smoke, benchmark, full, media, paper, release-check), `--device auto|cpu|cuda`, `--seed`, `--offline`, `--skip-real-llm`, and `--quality preview|final` where relevant. Document it with --help.
+
+SMOKE mode must run quickly on CPU with no paid external services: verify dependencies, build/load bounded WSP compiler, run tiny oracle consistency tests, produce a sample telemetry stream, execute one meaningful evaluation, generate an illustrative-but-real-data SVG/PNG and validate JSON. The repo should never require a 135M+ model download to prove that its core code works.
+
+BENCHMARK mode executes the pre-registered five studies where supported, generating machine-readable NA statuses for skipped resource-dependent studies, not fake placeholders.
+
+MEDIA mode consumes already-generated telemetry and renders a 5s preview or full media. Failed media generation must not invalidate scientific results.
+
+FULL mode performs smoke -> benchmark -> Track B synthetic -> optional real model -> reports/figures -> studio build -> video preview -> full video render if feasible -> career kit generation -> checks. Allow resume from previous stages and cached outputs based on input/config hashes.
+
+RELEASE-CHECK mode fails if claims, links, required assets, licenses, test outcomes or videos are inconsistent. It should output a human-readable `outputs/RELEASE_STATUS.md` with PASS/WARN/FAIL and reasons, not just exit text.
+
+Use process exit codes, structured logging, sane timeouts and progress output. Avoid a single giant data/ML/video process consuming unbounded RAM. Include time/memory budgets and optional bounded quick-run profile. Each phase saves a checkpoint manifest so the agent can recover without rerunning everything.
+
+================================================================================
+17. FULL TESTING, VISUAL QA AND RESEARCH REVIEW
+================================================================================
+
+MANDATORY TEST GROUPS:
+1. Unit/matrix: shape alignment, transpose conventions, exact numerical assignment checks, gates truth tables, attention mask, finite beta/length leakage, finite ID mappings, no `requires_grad` on direct compile path, SVD rank/factor reconstruction, stable ridge solves and NaN/Inf guards.
+2. Property/metamorphic: padding/noise invariance within declared support, order/ID near misses, stable output with equivalent symbolic sequences, deterministic seeds, oracle disagreement logging rather than hidden fixes.
+3. Evaluation protocol: no train/test leakage, correct metrics and supports, group split hygiene, confidence intervals, metadata, plot labels and missing-method handling.
+4. Telemetry provenance: complete event references, schema validity, deterministic replay, checksum integrity, lossless compression for actual coordinate writes, no invented displayed metrics.
+5. Safety: code contains no live exploit payload, no executable attack-generation logic, no user secrets, no dangerous subprocess invocation based on untrusted input; input tokens are toy data.
+6. Frontend: build/lint/typecheck, Playwright interaction tests, screenshots at desktop and mobile, accessibility keyboard flows, graceful reduced-motion modes, no missing charts or dead CTAs.
+7. Video: representative frames visually inspected; actual rendered video ffprobe checked, text safe margins, no black/blank frames at key times, correct 4:5 / 16:9, audio/license notes, no fake scores.
+8. Docs/release: README commands pass; paper bibliography and links match actual sources; career bullets and social post satisfy claim register; file manifest includes actual output sizes and hashes; `.gitignore` excludes caches, credentials and nonlicensed checkpoints.
+
+Add CI GitHub workflow for CPU-safe tests, formatting, static typing where manageable, frontend build and science-claim lint. Heavy GPU benchmarks and high-res media should be local/manual jobs with reproducible invocation, not mandatory CI steps.
+
+Review the end result through FOUR PERSONAS:
+- Skeptical mechanistic interpretability researcher: are weights truly authored from equations? Are the intervention/locality claims proved or measured? What's the falsifiable failure?
+- ML systems engineer: is it reproducible, resource-aware and correctly benchmarked?
+- Senior design director: does the product feel original, beautiful, legible and intentional?
+- Hiring manager/LinkedIn viewer: do I understand the artifact and its credibility in 5, 15, 45 and 120 seconds?
+Write `outputs/REVIEW_NOTES.md` with findings, fixes and open tradeoffs.
+
+================================================================================
+18. EXECUTION ORDER / NO PLACEHOLDER FINISHES
+================================================================================
+
+Work through the following dependency sequence. Update docs/EXECUTION_PLAN.md after each gate, but do not stop at plans:
+
+GATE 0 — Audit: inspect workspace/capabilities/sources/skills/licenses; pin environment; write research questions and claim policies.
+GATE 1 — Formal math: build and critically validate `specs/ZEROGRAD_MATH_SPEC.md`; all equations checked by dimensional tests and, where possible, numerical examples. Save architecture decision records if revised.
+GATE 2 — CPU scientific vertical slice: reference oracle + generator + compiled toy network + deterministic tests + meaningful first evaluated plot + telemetry events. If original architecture is underpowered, retain and show limitation; add a WORKING bounded alternative rather than faking.
+GATE 3 — Experiment suite: baselines, experiment protocols, metrics, seeds/uncertainty, report figures and explicit missing-resource statuses.
+GATE 4 — Analytic patching: B1 synthetic exact validation + controls; B2 real checkpoint ONLY when feasible; negative results included.
+GATE 5 — Visual design system: working studio home, event replay, circuit explorer and method comparisons, responsive QA screenshots.
+GATE 6 — Motion pipeline: Remotion skills and components, first preview, scientific data hookup, actual social and widescreen renders, ffprobe validation, poster and stills. Give this substantial creative attention.
+GATE 7 — Scientific/publication pack and career kit: report, paper draft, citation chain, 6 carousel cards, LinkedIn scripts, CV and portfolio materials.
+GATE 8 — Final QA: actual tests/CI equivalents, release status, claim audit, assets manifests, summary and handoff.
+
+If agent time or hardware is limited, prioritize (1) honest working CPU vertical slice, (2) exceptional studio demo and real rendered 5-second preview, (3) methodologically sound benchmarks, (4) one authentic 45s MP4, (5) Track B synthetic proof, (6) extra variants and optional large-model work. Do NOT fill omitted features with invented output. A working scientifically honest subset is far better than a large fake repository. Continue execution beyond merely writing the math spec, unless host constraints explicitly prevent it.
+
+================================================================================
+19. RELEASE DEFINITION OF DONE — VERIFY FILES AND STATE
+================================================================================
+
+Before presenting final output, verify all actual artifacts and prepare `outputs/DELIVERY_MANIFEST.json` (path, file size, sha256, generated_from, status, verification method) plus `outputs/RELEASE_STATUS.md`.
+
+Scientific core:
+[ ] Math spec with executable shapes and derivations
+[ ] Working reference grammar oracle and honest scope
+[ ] Actual zero-gradient Track A weight compiler and tests
+[ ] Synthetic Track B analytic patch with controls
+[ ] Benchmark results or explicit per-experiment skipped statuses
+[ ] Scientifically valid report and nonfabricated chart files
+[ ] Telemetry schemas, raw/event artifacts and replay verification
+
+Website and visuals:
+[ ] Studio production build works and is responsive
+[ ] Compiler replay heatmap, register and attention graphics connected to actual telemetry
+[ ] Benchmarks, patches and limitations faithfully represented
+[ ] At least 6 original carousel PNGs + editable graphics and alt text
+[ ] 5s preview frames inspected and documented
+[ ] 45s 1080x1350 60fps final video actually rendered and ffprobe-verified OR accurately marked blocked
+[ ] 1920x1080 60fps final variant actually rendered and verified OR accurately marked blocked
+[ ] Subtitles, cover, shot list and licensing inventory
+
+Career + research:
+[ ] Exceptional README with actual screenshots and commands
+[ ] Paper-style report with evidence-labeled claims, related work and limitations
+[ ] CV bullet options, research pitch, portfolio story, LinkedIn copy/series
+[ ] Citation/license/security/reproducibility/CI hygiene
+[ ] Review notes and final proof of honest executed status
+
+FINAL AGENT RESPONSE FORMAT (CONCISE, EVIDENCE-BASED):
+1. What actually works and the single most interesting measured result (or meaningful negative result).
+2. Exact file paths to working demo/studio, actual rendered videos, carousel and paper, plus commands to reproduce.
+3. Actual commands/tests run and PASS/FAIL/SKIPPED counts; no invented success.
+4. Claims that MUST NOT be advertised yet; limitations and blocked items.
+5. One ready-to-post, evidence-grounded LinkedIn hook and one CV bullet preview.
+6. The highest-value next experiment or deployment action.
+
+IMPORTANT: You must IMPLEMENT AND EXECUTE rather than stop after drafting specs. Work inside the workspace; use tools and terminal; install trusted missing skills/dependencies where permitted; inspect rendered assets; iterate until deliverables are coherent. If an action genuinely needs external authorization (publishing, privileged installation, account access), do not falsely claim it happened. Build all locally possible assets and explain the exact remaining approval.
+
+END OF UNIFIED MASTER PROMPT

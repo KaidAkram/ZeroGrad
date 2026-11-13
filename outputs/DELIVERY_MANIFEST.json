@@ -1,0 +1,1678 @@
+{
+  "schema_version": "1.0",
+  "release_status": "PASS WITH WARNINGS",
+  "artifacts": [
+    {
+      "path": ".agents/skills/release-and-career-kit/SKILL.md",
+      "size": 562,
+      "sha256": "3116cd48e7a139ffab89fcb893f1e0bc0b6072e1dc481b7672e75db032963bb4",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": ".agents/skills/research-repro-audit/SKILL.md",
+      "size": 589,
+      "sha256": "c1bce5745bfd36ffc42870d6d49cc8597759ff33bb262d3bfe5592aa13c55eb4",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": ".agents/skills/weight-telemetry-visuals/SKILL.md",
+      "size": 630,
+      "sha256": "89e08d755fb540ea78bf18177451fe453286f60941b9a6f83cc794fc12c82cbd",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/reproducibility.md",
+      "size": 244,
+      "sha256": "80b00897fad2a46f0166484ced87d06619f066030cfc3a28a85a41e95750ea68",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 728,
+      "sha256": "d2208fb6bbb922dda8335afa5f0ef1a819316d3986615defa08b89f2d54f78bc",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": ".gitignore",
+      "size": 217,
+      "sha256": "65dc83c6af0f68f8a88ce059f2b3ff7e6ace18d797d26b5a7aa314091f2ed7ab",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 563,
+      "sha256": "c9d53282b1ba786b0e10d08b5b15b1e7d0a066b5d0bbb5d4e3b2a5e932286e02",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 565,
+      "sha256": "0751d77e6a0f7b4d82f7c9b4e60ce6dcf930e9c2a5d4bac0f156344e6d49d7eb",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size": 356,
+      "sha256": "5edfb1ef4f08defbbe2820fbc6473bde712479ed0270bf9177341d93670cfbc1",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 447,
+      "sha256": "b6240c3b36de519031ef798daf6ca28c51ac31acad445b978d7708c9c7139d7e",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1103,
+      "sha256": "22919b5e7be6684e9ce93a5b952cb3cbff73acc8e432ca051aa7ef9a2ce101b2",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "README.md",
+      "size": 16308,
+      "sha256": "2c5eadd31070031327def299164877676cf1add00898b526d22c2d38c013c608",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 407,
+      "sha256": "bdd50a678df282c250a832edd1665c70da3bc90d9ef0f773ec980ca1689d3bf8",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "ZEROGRAD_SEC_MASTER_PROMPT.txt",
+      "size": 72346,
+      "sha256": "d29ab18bf1681d73ed758f5bec3dc9103dfb2127fd030a9872014802f28ae81a",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "assets/LICENSES.md",
+      "size": 525,
+      "sha256": "456aad8302181bd9b748fc3589db0d02eef9de00f1d48f677428e09ab7944231",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/COMMUNITY_OUTREACH.md",
+      "size": 633,
+      "sha256": "d6e1cc35f2643406df0e6a382c3460c2b65f266ffaf9b302c6b3f32674c2a7a5",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/CONTENT_SERIES_4_WEEKS.md",
+      "size": 540,
+      "sha256": "93fa90582263906a1338d15a921a6182ff27b3d30dd5613cc0acd2f1ac895ccb",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/CV_BULLETS.md",
+      "size": 1171,
+      "sha256": "ac5c083ca8d861abe3a1087ab4238b9442a4e08a33d7274f184eb8859f386717",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/DEMO_DAY_SCRIPT.md",
+      "size": 725,
+      "sha256": "836c584cc74cf3766bcdc5591a935a68d92304ad599d2430a462f32f9099555b",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/HIRING_MANAGER_README.md",
+      "size": 400,
+      "sha256": "68d29c3fedbe0a7e7b7dc9a75b74fb094e1331fa85158f1d3d3ec1aed1c62a0a",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/LINKEDIN_CAROUSEL_COPY.md",
+      "size": 2156,
+      "sha256": "e9724eade9e67802f5ff460d36bb2157687df59f1be95071d1312357ca5e51bc",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/LINKEDIN_MAIN_POST.md",
+      "size": 1509,
+      "sha256": "566463f86559948fe344d0c05839be9482afd21dafeeafc6b21fd961d473c63e",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/LINKEDIN_POST_VARIANTS.md",
+      "size": 818,
+      "sha256": "dbb1239dc880099771b0f9faade010b99daf9b985788d5c4d4eaf2820a226701",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/LINKEDIN_REEL_CAPTIONS.md",
+      "size": 834,
+      "sha256": "35084e6c0cc20525c3206ffb69906175c76637959d16088bdafb99af0d472523",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/PORTFOLIO_CASE_STUDY.md",
+      "size": 1409,
+      "sha256": "cbbb879ae4c2b48e621f9bf08a444a47164855cc5a649ec88a8b7766cb61f70d",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/PROJECT_SUMMARY_50_150_300_WORDS.md",
+      "size": 3321,
+      "sha256": "b582e6791c5fa7e0d901ee6d4dce4212a204748dd07cf544f81f2260a0e08e46",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/RELEASE_CHECKLIST.md",
+      "size": 531,
+      "sha256": "aecf1bf04c698dac323866a7be435d4295ea3e680761e6739954f3ae8af6cf99",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/REPRODUCIBILITY_DEMO.md",
+      "size": 358,
+      "sha256": "64e91cde147f7ae6857284b00104f4aae3e21b85cd05308e64d33c9d522ac230",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "career/RESEARCH_STATEMENT_PARAGRAPH.md",
+      "size": 437,
+      "sha256": "787c534c994b8df97531522a115f8a752e15c5ac400e06412132492a9cfb96a6",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/assets_manifest.json",
+      "size": 4656,
+      "sha256": "0f617b857ea34efa56a566d8006016ad250acd9fdc3839f968acf67d1cbb5db2",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/brand_tokens.json",
+      "size": 303,
+      "sha256": "833f0127b031904011e5fe719e5443804ef350adf2b71326f171298bde064449",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/readme/hero.svg",
+      "size": 42716,
+      "sha256": "5ee7e8194aafa1587a8aca9dbc2a0160cd0d7b236a5270dfa12c8ddbff5c8e99",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/readme/length_boundary.png",
+      "size": 105774,
+      "sha256": "ec6df52e3ba541120c9ea1fad40ffa5e5f198f9a0ac3dd1ea87946b9f8a2d907",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/readme/length_boundary.svg",
+      "size": 59996,
+      "sha256": "fb38250764ed9e6632a63133b18a7bf3c55062d20800d0c99cf0e199e2b2a92c",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_01.svg",
+      "size": 2060,
+      "sha256": "c7fe817cba26d2d01ae518fc5370c5c83f9d498a1b561cdb644548ce4dcc413a",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_02.svg",
+      "size": 1988,
+      "sha256": "2d8ee57445e29c50e281f26033d90a01c3a63efef9efe550b8761d45feead1bd",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_03.svg",
+      "size": 1260,
+      "sha256": "def09afb5cc02b612a615ec2b07047f4ce1f473e9ff5a52a60a5ace426babc89",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_04.svg",
+      "size": 1082,
+      "sha256": "54b63dd91466f266a4097a02941d7fbbd5ed7a9e4cd80140bb2dff8d2f8953fa",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_05.svg",
+      "size": 909,
+      "sha256": "ade7372c988938a397116ab0096d89c8063ea3b57d57beaf313dbdb498757e13",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "design/slides_svg/carousel_06.svg",
+      "size": 725,
+      "sha256": "4218e7d1b3734760afa5714ec111092e2124ff6650b34b341c9a4a8eed410472",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/CLAIM_REGISTER.md",
+      "size": 2554,
+      "sha256": "85f8f2f89c1f5ab210f6d87bbd2b7f33078af255a9962d3494774ab776c95804",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "size": 1905,
+      "sha256": "88edaf55f151d37353c9519bf4edcea294134055fc500d3d64d3d3ea8f706332",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/ETHICS_AND_THREAT_MODEL.md",
+      "size": 1279,
+      "sha256": "e66feee5c720226b13d88f58fd84c1b357b36ebb3b0aafea04404bd62beb5a86",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/EXECUTION_PLAN.md",
+      "size": 4983,
+      "sha256": "a023f8b576506c97130ece25ffd1d803f4d979c6b5ba86f2e0e2ecda410f25fa",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/EXPERIMENT_PROTOCOL.md",
+      "size": 1430,
+      "sha256": "d388a723d6b6accefd8ec7f4284e56c5ed089bd02a145b7a1673c67c06ba15bc",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "size": 1351,
+      "sha256": "f1feda17c8ea523da4610aaf657b53cdf471fec617bd52d21cdd876ee8ac4c00",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/LITERATURE_NOTES.md",
+      "size": 6053,
+      "sha256": "cb96d10048bcb099c16be2f2f6175ede85a8081ef1c8bffe02f133ab23fa5fee",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "size": 2546,
+      "sha256": "c945403153a1a6e7898f6363e8bb70f7c781117aa3aafb97e96b19b9c8ed36d3",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/RESEARCH_PITCH_ONE_PAGER.md",
+      "size": 1392,
+      "sha256": "3d358fe0226219b9b230aa2ee64e1e3ed80d9405a867e54aa38afc8541ad33d0",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/RESEARCH_POSITIONING.md",
+      "size": 913,
+      "sha256": "c4d81dd9ae11f1431ea1f578ad9dd0e6399b81f07fa7453f5bca3d12f55a9584",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/RESEARCH_QUESTIONS.md",
+      "size": 3009,
+      "sha256": "8054b54dfcba9a7e2f34947c8dc306b2485e3d0144a0ed694fd0ff568ec0015f",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "size": 698,
+      "sha256": "ba8ea13144662a28f6d168aa8e08fcc5c08bf0bfee9a6728295f3e92e2895f76",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "evaluation/run_benchmarks.py",
+      "size": 7404,
+      "sha256": "ee14fbcdbeac333c56221a5a0046bb2b6b1ecfb5786218fabb54007bf468d534",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "evaluation/transformer_validation.py",
+      "size": 1924,
+      "sha256": "15c5da9e0971dd953d9596bc055f4886ceea900025d68f88fdade5596d14802a",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/MEDIA_QA.json",
+      "size": 2446,
+      "sha256": "a459623b8226a2f4c33e3e0053f0b702a245edc49c8d3bd0b06b805792ee9dc9",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/PAPER_EVALUATION_REPORT.md",
+      "size": 9113,
+      "sha256": "de73162ee2c1b4fe1a76cc827e02852923b4273bdc68adb2b52ba645bf5941a0",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/RELEASE_STATUS.md",
+      "size": 2459,
+      "sha256": "93d1081b8b7382348db5e866fb3ad3300f5704784ffd0184c9a08fe6b1beea7d",
+      "generated_from": "scripts/release_check.py + existing artifacts and recorded QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/REVIEW_NOTES.md",
+      "size": 2490,
+      "sha256": "6285c3eab53e87fb67ff862c2e852ef74a8c63d558bff60c60cc322a20964cca",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_01.png",
+      "size": 47561,
+      "sha256": "758dcff9d06b35649173050dad2ee45e9bd9a4c8d8678a3150c64e588ef26c2a",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_02.png",
+      "size": 70199,
+      "sha256": "dec0a59ac90bb037efd41d1e0576c7b776086a032106e8960e470e75c97d6edf",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_03.png",
+      "size": 46312,
+      "sha256": "214b5a7cb6a0473e210fb54e1ec5dcb3905cdba3f59165a12aceb08f7235a5bf",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_04.png",
+      "size": 47424,
+      "sha256": "3e7e8680de4c07a085754d749e45376285aca1b2c0586063777f0544f2ba6cba",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_05.png",
+      "size": 53722,
+      "sha256": "be1bb54b8f477b091e5bd45a8d6ea483124a824bbe35eee885b02c9aab323268",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_06.png",
+      "size": 47574,
+      "sha256": "2ee76d64773a1ecd3d70e5b4456573943cbb72ae6695f37851c7d2137ca23911",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/carousel_montage.png",
+      "size": 140933,
+      "sha256": "ca202824035c6c0354bf268e9fc2f6f89e0fa39a1b293eb8b21e948a81c05884",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/figures/edit_tradeoff.png",
+      "size": 82636,
+      "sha256": "113c0325d55d25b60ea76a193c4723a096007ddc2adeea7eeb007414fe7d72d8",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/figures/edit_tradeoff.svg",
+      "size": 37260,
+      "sha256": "c55202fe5dc7b77c871585b3fa0e7611f7119f95bac3eba7574e880517cb91d5",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/figures/length_sensitivity.png",
+      "size": 74941,
+      "sha256": "3c55cc2100f6307453451620606f4043fb6fd75b9ac781e6b46a0faa5d157df9",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/figures/length_sensitivity.svg",
+      "size": 33437,
+      "sha256": "34f3cecae0168be9f243ec0fcfbc73fd629e85dede7d6edaa0adce4d61756de9",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_01.png",
+      "size": 47289,
+      "sha256": "d9307ed6a485a2ed7f7288599d1eec0557c651d62877d113e8535d1d1bd59fd1",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_10.png",
+      "size": 44506,
+      "sha256": "725ebe7eb91aa716d8b2b119f7b0b00afa02c758e028a43c4a069c84342d159f",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_18.png",
+      "size": 43499,
+      "sha256": "78685f6fea7fd2981969b39f5433458ff2ce01a4a2d629e99355f5ae2bcb6fc3",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_27.png",
+      "size": 47450,
+      "sha256": "d62f410559fe26acf67893b7105902dc1d9b8cfd6b8f4bedc40c2492c8c91a3f",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_39.png",
+      "size": 53750,
+      "sha256": "e47a9f0b1557c36a8c347db7ab9efc776f561835dbac3c988a95af71f505a631",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/frame_44.png",
+      "size": 53750,
+      "sha256": "c642787d8258d3de0273abc953698cf4d25eb86a71f86c1a97ca96b48a124276",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/contact_sheet.png",
+      "size": 199819,
+      "sha256": "d1e79e527e309e129a912496de50d18a2d2452575105a9a6cc2a58f7afc6406e",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_01.png",
+      "size": 199258,
+      "sha256": "31ad44a3f4fec562f67846daed83986209b15c8fe39d13d646c6197435c34928",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_10.png",
+      "size": 189130,
+      "sha256": "8c34b45419e3b7c14df7022432fdd85aabdfe4988054bc0caf5360c1986fcb07",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_18.png",
+      "size": 186360,
+      "sha256": "6286f5b13be27f906f9ce9fd3681b3795b43ba59e5796dccd326844a299719c2",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_27.png",
+      "size": 127084,
+      "sha256": "2437de88c9707defa36811b78ba00149b2949e3038a9f7a524476efe32f0f775",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_39.png",
+      "size": 149363,
+      "sha256": "de39095bf1a4f79ed0b1ce8a198d53db211734fffd10b9981495f003a2d1fc9e",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_linkedin_reel_44.png",
+      "size": 149374,
+      "sha256": "0dd0c955febe1fa1c647847a4b40bd286d0790011f8eb533002595be8a21c42b",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_preview_01.png",
+      "size": 151078,
+      "sha256": "54080eafefbb8c327078ce351976436f61a747a8aa412e99ad5534d75fd365df",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_preview_04.png",
+      "size": 164133,
+      "sha256": "7ae794ce6e9472697e320af8959e7ea70f2e9e58e73cc29a54df8390b622f0a2",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_teaser_12s_01.png",
+      "size": 199258,
+      "sha256": "31ad44a3f4fec562f67846daed83986209b15c8fe39d13d646c6197435c34928",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_teaser_12s_11.png",
+      "size": 196972,
+      "sha256": "9e95e9dd724936063d72041efe14f3fe8664ac4403bf733144068b7b6272b031",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_01.png",
+      "size": 217324,
+      "sha256": "a7cc1088e8ed5ca47e0aea3d1e33808a7fec45bfdff5294e5254fd26031c9429",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_10.png",
+      "size": 206490,
+      "sha256": "b6a5bc0ccfb27d8bd29d4cb391eae81f9e7b90c65b5c2d407cb65f9532dd24aa",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_18.png",
+      "size": 201451,
+      "sha256": "0db186e958d6c444a5660ac13fe74be93b65d63d9a774bda0f23cd082f469320",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_27.png",
+      "size": 148203,
+      "sha256": "e1aeb54c088d61ee0f7335ab5286eebe811f673a9334df767e47f879315e7e55",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_39.png",
+      "size": 166637,
+      "sha256": "89ba170ee51ef0827101ff9ed7eabdf798d5623a7bf67b9a76e71cf99a6cdb78",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/media_qa/zerograd_widescreen_44.png",
+      "size": 166707,
+      "sha256": "8f33286b49be4b364cb2fa2a4095bdcd52ed8410618b732d795e42eaea6fd88a",
+      "generated_from": "scripts/verify_media.py + actual encoded MP4 files",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/metrics.csv",
+      "size": 3898,
+      "sha256": "e998d4e4097669ecdf1c8832d6b9f217430204faec0f44130caa5a31f4c529e0",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/metrics.tex",
+      "size": 1652,
+      "sha256": "082944ff448195e6982d370ced27e90fcd12b99ea9092113a951411fbe97f909",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/opengraph.png",
+      "size": 32448,
+      "sha256": "1f5ce58ef9e3db235d70913dd3f9e4dfa67a2164c2a4976f600349f285dc4d26",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/science_checkpoint.json",
+      "size": 196,
+      "sha256": "22d1543a44832068e3e60c68bd0f1e2aa5fbb326c3a2130e8c7ae4704a045e19",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/smoke.png",
+      "size": 13123,
+      "sha256": "8294e1f0c8d17f63a74a562738cb9b27530d37aa300cbef12219c9ee13021ec6",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/smoke.svg",
+      "size": 25238,
+      "sha256": "3248da5da5e5b5c6b8eda26534be9b8b23c8a6dc60a286462764ef2073d6b655",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/test_results.xml",
+      "size": 3299,
+      "sha256": "3fb33d61b15e84c948ed83434bcc0e03fbd3e041a6c21ca72d902448c9e24f4e",
+      "generated_from": "tests/ + pytest",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/track_b_edit_report.md",
+      "size": 3972,
+      "sha256": "a2da79043e039759eb028f43ddbcca2167be976b6e6619520919afbe4e41086f",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_linkedin_reel.ffprobe.json",
+      "size": 2668,
+      "sha256": "91bce35b43d78b44d7f5ab59f6a6cd660f18aa4e0372f049d631329b2ca27064",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_linkedin_reel.mp4",
+      "size": 1000970,
+      "sha256": "0a19e8274b47d1e2f78ad5d408218d1850965e5ba33973443636bb4ad53ca9e1",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_preview.ffprobe.json",
+      "size": 2653,
+      "sha256": "83ec15cf371b9c9bae505d6805113bc02e03286f4adb2c980849d0b73280490f",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_preview.mp4",
+      "size": 138737,
+      "sha256": "8a54e058791b846e1cbf0899450be799c35d76ca50540c7163eb9f45ade99e20",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_reel_poster.png",
+      "size": 47647,
+      "sha256": "c073dadd3d4b3973fc9218c9f435c415704363f22974f2bafe1571d4c59e6d96",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_subtitles.srt",
+      "size": 488,
+      "sha256": "2609b41f934f0bba4e7f9d050520a6d8a1423dcea8c4068ff1d6665b6554ec23",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_subtitles.vtt",
+      "size": 483,
+      "sha256": "a996d0afda480821c73e9fa228fd0f2b7a88fe02e754e2adb254938aa531937a",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_teaser_12s.ffprobe.json",
+      "size": 2663,
+      "sha256": "9dbc2c05c8f190491f89b02e90181bd7034c37324a0398872f192d502d9cea34",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_teaser_12s.mp4",
+      "size": 364639,
+      "sha256": "5fb94b221147058cf72d43fbb4cd15e36f0cc8bb70310924b16cef2a72d20c53",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_widescreen.ffprobe.json",
+      "size": 2665,
+      "sha256": "a94b6a03cf5a9e15b48b027f73031ba5adceaf79a424aead0d84f94e577498df",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "outputs/zerograd_widescreen.mp4",
+      "size": 1040653,
+      "sha256": "302b128e1278bd8ee8eb0458cd75cdf750e0c53b66383c6dc4da18d17bad1e57",
+      "generated_from": "scripts/render_video.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; FFmpeg/ffprobe",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "paper/zerograd_sec_paper.md",
+      "size": 9113,
+      "sha256": "de73162ee2c1b4fe1a76cc827e02852923b4273bdc68adb2b52ba645bf5941a0",
+      "generated_from": "scripts/report.py + telemetry/benchmark_results.json + telemetry/weight_write_stream.json; review notes authored from inspected artifacts",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "project.json",
+      "size": 159,
+      "sha256": "3ab2e824f33b47ac1d6afc0117216791884eab9d1f23d4ca9c3d347417c4db42",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 365,
+      "sha256": "b0e4a9dd5e0bf16c2e820cd2fa75973d4059aef0a58ac5158d86a57990732d3e",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "references.bib",
+      "size": 4352,
+      "sha256": "80eac27cec3e1db9ea6a69c0f577244fd78c4b37f7dc38be7f5a8a85af19bb8d",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "requirements-cpu.txt",
+      "size": 353,
+      "sha256": "9898c5fc0dcd3496c47411ef7dc95101cb02a331249349d096f0bcf74e664667",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "requirements-observed.txt",
+      "size": 249,
+      "sha256": "3302cdfd451c4477613fd6f71f08bec8beed217458acf484ba721943e40a3a0a",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "run_all.py",
+      "size": 3851,
+      "sha256": "8fe34ae069e816da1aa9ef6b76edce7b8d8ecc99515f8e95e78c7873fed027b2",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "schemas/telemetry.schema.json",
+      "size": 2579,
+      "sha256": "2d2e2cd7f1e536c5ab3312632a86416a15aba233d5865014bc352cf1bc0d8f81",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/bootstrap.ps1",
+      "size": 251,
+      "sha256": "eebd61d9ccbd0591f00c366524692ba844c267e624346aec98b2c934eaa87b68",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/bootstrap.sh",
+      "size": 114,
+      "sha256": "ee3b081bd0c66990ef93607b81edb18d61ce0863ba544c49dd70b2e1b06b6d3f",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/finalize_docs.py",
+      "size": 25431,
+      "sha256": "8f2d7928ec2b92e09867bf14c27a9751ee88aaf64577873ea5094ed005e31dec",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/finish_studio.py",
+      "size": 1658,
+      "sha256": "b349b1ec0eb4c77dd55b5240252f185786db77bea75042f35aa0ed7dad53d718",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "size": 3663,
+      "sha256": "6328b43a9c47e470258a303a11412bc6cf12a56c1f23e844c9c9207beaaba718",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/prepare_github.py",
+      "size": 2436,
+      "sha256": "505401358589a7f025f3c9b1892cd8db766e68b1734b7c01ca49636cf3ab5440",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/preview_readme.py",
+      "size": 2295,
+      "sha256": "96dc06d306b460e5ec637e8554a76744a5c0a83c5d7f8d4e45f92dfd751e637c",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/publish_github.py",
+      "size": 3191,
+      "sha256": "28ff22383242de615fe7dafe938188c810f3eb94a23cbae4558bf497a80ac77c",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/readme.py",
+      "size": 21826,
+      "sha256": "3e29745000781f74f2d16d41b0fc446fdc1cc07b42192dbf46c9adfc367c9829",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/release_check.py",
+      "size": 6344,
+      "sha256": "94362317bc48b012593e3b6ada2d94792e53518c1416d9f24ad8e919c664682f",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/render_video.py",
+      "size": 7529,
+      "sha256": "1d2dc7c6d5142ec44788e1d0ec69ae788165195087bf624cef48da9dc2c96fba",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/report.py",
+      "size": 26100,
+      "sha256": "d9342eef1b5f7e5dcc1964024193dd4fc018583d5dc4a07872a3e430c5bc41b9",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/update_studio.py",
+      "size": 846,
+      "sha256": "9926c78e1975d5ee8c963c8f44c710ccf5d057ab8e58a60ae20cf6946be30adc",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/validate_claims.py",
+      "size": 2662,
+      "sha256": "9ec8720c74ee669bfeda589efa02892d5a1a8cd9b068f7b8b8457fb122ab89be",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/verify_media.py",
+      "size": 2805,
+      "sha256": "527a73fae7b2be972372a91555d2e2b3ffee4e05bd10a55e58d3fef3954ec3de",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "scripts/verify_readme.py",
+      "size": 1057,
+      "sha256": "5ddc2ba458469a684e5c4c05603db18705e9de3e7de5b9552adaa4591e5c53bc",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "specs/SYMBOLIC_CIRCUIT_IR.md",
+      "size": 1528,
+      "sha256": "21e7ef145cd9e456ac724836520db949297c4f73d0e7c543325f339c51818d2d",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "specs/TRANSFORMER_EXTENSION.md",
+      "size": 2992,
+      "sha256": "429f1e80a762762714c7a835d6ee19ab2ad5fb262216557acfaea1e045b82b45",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "specs/ZEROGRAD_MATH_SPEC.md",
+      "size": 3344,
+      "sha256": "1a00fd51f749298053217c1d82d50e5c419d7b330af52ebcbf47a99f354a2bc5",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "src/zerograd/__init__.py",
+      "size": 70,
+      "sha256": "5610031aac69dd5b17844434be106c751d7e463577b1cdb8fd3384df1d67514e",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "src/zerograd/core.py",
+      "size": 5134,
+      "sha256": "4ac51208acf51ac3dab51d9bbb5177b2242a28276c19681af627f18727d0f70b",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "src/zerograd/model_wsp.py",
+      "size": 4699,
+      "sha256": "181bcf7917540da977f22901b32e470e2d0a5dfaad1780f7635750a3624c9829",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "src/zerograd/patch_io.py",
+      "size": 1480,
+      "sha256": "fad088d3cc97e7d12da752acfb8a25791037d9223cfd3cee6dc75a02c03fe295",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "src/zerograd/telemetry.py",
+      "size": 1776,
+      "sha256": "5704460b330045b84635177bd79300d5c4ae279284ae218bfbc706652becca87",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/.npm-cache/_logs/2026-11-10T21_27_48_582Z-debug-0.log",
+      "size": 1214,
+      "sha256": "e20703d4d5a51b5de44052d70f8878f8fdc67cfb9a773b4e0c93e759fef67012",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/.npm-cache/_update-notifier-last-checked",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/README.md",
+      "size": 2040,
+      "sha256": "78816a4129de9d1230f71dff6da52141ae0070d38b44dd2557af8f3d3b3fe375",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/assets/index-BFWSXY7b.js",
+      "size": 212045,
+      "sha256": "1b682b3dead1273c910c32ab14c96ba7374f9cd8d2a6fcdb6e007c0b4a890208",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/assets/index-Coy-LYTY.css",
+      "size": 14582,
+      "sha256": "62ec15d21f917d5d2b4f9ef6d43e85d6355d9080ca21a6de6ac7e2a17f300ac6",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/benchmark_results.json",
+      "size": 41243,
+      "sha256": "74138f6728d6619c345563143b8c6281d70b42bf637b0489d7a94741689d12d4",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/claims.md",
+      "size": 2535,
+      "sha256": "50887610f00da3f65eaf984572046ec37b95d5ff53a45a497042026e72d92c80",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/limitations.md",
+      "size": 1351,
+      "sha256": "f1feda17c8ea523da4610aaf657b53cdf471fec617bd52d21cdd876ee8ac4c00",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/metrics.csv",
+      "size": 3898,
+      "sha256": "e998d4e4097669ecdf1c8832d6b9f217430204faec0f44130caa5a31f4c529e0",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/research.md",
+      "size": 9113,
+      "sha256": "de73162ee2c1b4fe1a76cc827e02852923b4273bdc68adb2b52ba645bf5941a0",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/transformer_validation.json",
+      "size": 11180,
+      "sha256": "0c6ddad2f279e15fba862c3a0400a9f2cbcf7a5794e480a13cf81c29dc599c73",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/transformer_weight_stream.json",
+      "size": 49438,
+      "sha256": "759075f8438c46e1995cb94340b4eb1874810f8c74f490bff81618fdbc85caed",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/data/weight_write_stream.json",
+      "size": 5275,
+      "sha256": "de1954f38fde5a641f00a29fc7843198fc556e32e3026ea0a463aeb5a696499a",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/index.html",
+      "size": 591,
+      "sha256": "095901815eca611ef6a704ac4c0d2414c2e7bb8bb472d5cc4fb19014d91e86a9",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/media/zerograd_linkedin_reel.mp4",
+      "size": 1000970,
+      "sha256": "0a19e8274b47d1e2f78ad5d408218d1850965e5ba33973443636bb4ad53ca9e1",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/media/zerograd_reel_poster.png",
+      "size": 47647,
+      "sha256": "c073dadd3d4b3973fc9218c9f435c415704363f22974f2bafe1571d4c59e6d96",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/media/zerograd_subtitles.vtt",
+      "size": 483,
+      "sha256": "a996d0afda480821c73e9fa228fd0f2b7a88fe02e754e2adb254938aa531937a",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/dist/media/zerograd_widescreen.mp4",
+      "size": 1040653,
+      "sha256": "302b128e1278bd8ee8eb0458cd75cdf750e0c53b66383c6dc4da18d17bad1e57",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/index.html",
+      "size": 490,
+      "sha256": "e4810d0218aacb90c3041f03c0626f42bd824dadc6d8629fe32b0981a3c7b882",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/package-lock.json",
+      "size": 13152,
+      "sha256": "9acbde7fe3db8a4f3b447899394b72d15b474423cc07f8c119154f00a5c688a5",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/package.json",
+      "size": 577,
+      "sha256": "7629dfe5a894a2304b0720cc76a1612ecb16ef8b9e94f093f65f9b00f24976fc",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/benchmark_results.json",
+      "size": 41243,
+      "sha256": "74138f6728d6619c345563143b8c6281d70b42bf637b0489d7a94741689d12d4",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/claims.md",
+      "size": 2535,
+      "sha256": "50887610f00da3f65eaf984572046ec37b95d5ff53a45a497042026e72d92c80",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/limitations.md",
+      "size": 1351,
+      "sha256": "f1feda17c8ea523da4610aaf657b53cdf471fec617bd52d21cdd876ee8ac4c00",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/metrics.csv",
+      "size": 3898,
+      "sha256": "e998d4e4097669ecdf1c8832d6b9f217430204faec0f44130caa5a31f4c529e0",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/research.md",
+      "size": 9113,
+      "sha256": "de73162ee2c1b4fe1a76cc827e02852923b4273bdc68adb2b52ba645bf5941a0",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/transformer_validation.json",
+      "size": 11180,
+      "sha256": "0c6ddad2f279e15fba862c3a0400a9f2cbcf7a5794e480a13cf81c29dc599c73",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/transformer_weight_stream.json",
+      "size": 49438,
+      "sha256": "759075f8438c46e1995cb94340b4eb1874810f8c74f490bff81618fdbc85caed",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/data/weight_write_stream.json",
+      "size": 5275,
+      "sha256": "de1954f38fde5a641f00a29fc7843198fc556e32e3026ea0a463aeb5a696499a",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/media/zerograd_linkedin_reel.mp4",
+      "size": 1000970,
+      "sha256": "0a19e8274b47d1e2f78ad5d408218d1850965e5ba33973443636bb4ad53ca9e1",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/media/zerograd_reel_poster.png",
+      "size": 47647,
+      "sha256": "c073dadd3d4b3973fc9218c9f435c415704363f22974f2bafe1571d4c59e6d96",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/media/zerograd_subtitles.vtt",
+      "size": 483,
+      "sha256": "a996d0afda480821c73e9fa228fd0f2b7a88fe02e754e2adb254938aa531937a",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/public/media/zerograd_widescreen.mp4",
+      "size": 1040653,
+      "sha256": "302b128e1278bd8ee8eb0458cd75cdf750e0c53b66383c6dc4da18d17bad1e57",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/qa/desktop.png",
+      "size": 818179,
+      "sha256": "3b68735137ee723ef94910ad520359a88296c5a526169a88671facf6acfef8ea",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/qa/hero.png",
+      "size": 220338,
+      "sha256": "be6581b4e75e167e447548281e4f62fda0c96b6d3a9ba6fe75cee10b93fab239",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/qa/mobile.png",
+      "size": 483466,
+      "sha256": "d037f426718614f932708ab9d45778baed91523f0d02585c1481cbebca7758d6",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/qa/results.json",
+      "size": 500,
+      "sha256": "ef6a259635cedda61e1c22ee1a741f701d99c67e7d43a00c2d50090d0fafd244",
+      "generated_from": "studio/src/ + studio/scripts/ + copied telemetry/docs/media; Vite build or Playwright QA",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/build.mjs",
+      "size": 130,
+      "sha256": "c2c8dd6198b2b3531bea1b2aa36a80e232896c587522138e2aad495d5ef58f89",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/dev.mjs",
+      "size": 192,
+      "sha256": "e2f3d75e5d66a86620ab681141aaf783e50b52d0e4cb5c2f2f389bbb769d7bef",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/fix-setup.cjs",
+      "size": 568,
+      "sha256": "19b68240a738367f94f185abdefe68e5cee86de2a5d4625471b53954f8f5a561",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/lock-integrity.cjs",
+      "size": 760,
+      "sha256": "476a5ed7ee34386137e1f40da74ff699793e1a9eba3443eb39ccbf69e2436db6",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/offline-deps.cjs",
+      "size": 1785,
+      "sha256": "af4dcc7f058407735e5e2dbe0275cf682d79ba5aff38dfe8e2c59bbaa5092503",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/scripts/sync-data.mjs",
+      "size": 1068,
+      "sha256": "1b4ddb71e8259d4ebf8395e18e54f5549731da018b6e287d8354822ca7a77ca7",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/src/main.tsx",
+      "size": 16639,
+      "sha256": "e3f76a07bdddfdf1a5fad4d2c65813dc28d36f2c56dbe550f13ff4b4244d9519",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/src/style.css",
+      "size": 14452,
+      "sha256": "84636aadd5a7e8672397524cbcc7e6ed806e5c2fe9dd22ef4f03a7a8b3f04e9b",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/tests/browser.mjs",
+      "size": 4213,
+      "sha256": "b14f21ca4a5a283167ff6dde913504d5da09278f878c6c6a3e1b479dd5d3ca32",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/tsconfig.json",
+      "size": 232,
+      "sha256": "96f1df6a00cf7165fb2360bc83d6b5f6785337c59ac38b2e1ff134d81904c6ca",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "studio/vite.config.ts",
+      "size": 103,
+      "sha256": "ecf68d738b0daae459c0e3cac2f60045aa7aab9eafc5f79d734d808e1155414e",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/benchmark_results.json",
+      "size": 41243,
+      "sha256": "74138f6728d6619c345563143b8c6281d70b42bf637b0489d7a94741689d12d4",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/manifest.json",
+      "size": 143,
+      "sha256": "24334fb7d767dba9bf23c3912b84317e63641ab3ec4cc28bb9bb8d16ed40862c",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/raw/predictions.json",
+      "size": 7688307,
+      "sha256": "1c3e2f1babd9c350a528521b19f4ba6d63a1c6b48b0bf91d780fa53ae5706c52",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/smoke/benchmark_results.json",
+      "size": 7127,
+      "sha256": "829b57ddc05a95a89a1c690fced60597f3fe9c83bfa65523cddbdf91adda9866",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/smoke/manifest.json",
+      "size": 125,
+      "sha256": "c8e57d8988b312bc0c38b6ee36e615e05f70ec96f3f725512143147ad83b45fe",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/smoke/raw/predictions.json",
+      "size": 14913,
+      "sha256": "2fc906c240c69f024d6953a2483c262a0b3bb63ba7f83c2ad4c5c237c831deb4",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/transformer_validation.json",
+      "size": 11180,
+      "sha256": "0c6ddad2f279e15fba862c3a0400a9f2cbcf7a5794e480a13cf81c29dc599c73",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/transformer_weight_stream.json",
+      "size": 49438,
+      "sha256": "759075f8438c46e1995cb94340b4eb1874810f8c74f490bff81618fdbc85caed",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "telemetry/weight_write_stream.json",
+      "size": 5275,
+      "sha256": "de1954f38fde5a641f00a29fc7843198fc556e32e3026ea0a463aeb5a696499a",
+      "generated_from": "evaluation/run_benchmarks.py or evaluation/transformer_validation.py + deterministic seed/config; see artifact architecture and result IDs",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "tests/test_core.py",
+      "size": 1974,
+      "sha256": "59cbb5e6fb355df0644ceefa0fbc56e274923b995e18d75e96663f53be2f1f61",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "tests/test_editor_controls.py",
+      "size": 1596,
+      "sha256": "83904cf018179f3d9646b002dc2878866e0eb19a77c365a769395b8afcc02e3d",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "tests/test_provenance.py",
+      "size": 1158,
+      "sha256": "f4682c97c57389539c827a3416b9575c9991beb9173a90a609bfad250b6c0370",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "tests/test_transformer.py",
+      "size": 1545,
+      "sha256": "418d465cb23dd54787e00c1c8c2cb94f99aaf5e659827b7d52186a95439dc74e",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "video_studio/AUDIO_LICENSES.md",
+      "size": 301,
+      "sha256": "2941106f733a07cb5db03ce9e1fd08ff985ddce33db1c8e090a57b30e9a84863",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "video_studio/MOTION_STYLE_GUIDE.md",
+      "size": 363,
+      "sha256": "7cfdf65e92be21fcd5e3dff934a14a1f43fa3d040c99a3a59345d13756d3bf95",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "video_studio/SHOT_LIST.md",
+      "size": 693,
+      "sha256": "b2188ecd32266d88d0c76867a1e9727fda30ffc4645a817c0a90bd342a23c80c",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "video_studio/STORYBOARD.md",
+      "size": 694,
+      "sha256": "0a68d94b5bebf74bf844950efd84dc351584cfa3a8c0aa8c278e5481eb693ddf",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    },
+    {
+      "path": "video_studio/VOICEOVER_SCRIPT.md",
+      "size": 700,
+      "sha256": "b274e36f24a12062a9232223bccc31cf363405d8874886a27a999cdb5ca3b304",
+      "generated_from": "authored repository source/documentation; controlling brief ZEROGRAD_SEC_MASTER_PROMPT.txt and recorded primary references",
+      "status": "present",
+      "verification_method": "SHA256 and file size; applicable functional checks in RELEASE_STATUS.md"
+    }
+  ]
+}

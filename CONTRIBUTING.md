@@ -1,0 +1,3 @@
+# Contributing
+
+Run `python -m pytest -q`, smoke, and studio build/browser checks before proposing a change. Preserve frozen test seeds; disclose any tuning. Add raw evidence and claim-register entries for scientific results. Avoid large checkpoints and offensive payloads. Changes to the proof or grammar require independent oracle tests and documented scope. Use issues for reproducibility reports; no affiliation is implied by a contribution.

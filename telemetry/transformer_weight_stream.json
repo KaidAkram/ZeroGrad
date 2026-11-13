@@ -1,0 +1,1990 @@
+{
+  "schema_version": "1.0",
+  "architecture": "bounded-transformer-v1",
+  "seed": 11,
+  "events": [
+    {
+      "id": "transformer-write-000",
+      "type": "weight_write",
+      "tensor": "W_E",
+      "shape": [
+        32,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          0,
+          1.0
+        ],
+        [
+          1,
+          1,
+          1.0
+        ],
+        [
+          2,
+          2,
+          1.0
+        ],
+        [
+          3,
+          3,
+          1.0
+        ],
+        [
+          4,
+          4,
+          1.0
+        ],
+        [
+          5,
+          5,
+          1.0
+        ],
+        [
+          6,
+          6,
+          1.0
+        ],
+        [
+          7,
+          7,
+          1.0
+        ],
+        [
+          8,
+          8,
+          1.0
+        ],
+        [
+          9,
+          9,
+          1.0
+        ],
+        [
+          10,
+          10,
+          1.0
+        ],
+        [
+          11,
+          11,
+          1.0
+        ],
+        [
+          12,
+          12,
+          1.0
+        ],
+        [
+          13,
+          13,
+          1.0
+        ],
+        [
+          14,
+          14,
+          1.0
+        ],
+        [
+          15,
+          15,
+          1.0
+        ],
+        [
+          16,
+          16,
+          1.0
+        ],
+        [
+          17,
+          17,
+          1.0
+        ],
+        [
+          18,
+          18,
+          1.0
+        ],
+        [
+          19,
+          19,
+          1.0
+        ],
+        [
+          20,
+          20,
+          1.0
+        ],
+        [
+          21,
+          21,
+          1.0
+        ],
+        [
+          22,
+          22,
+          1.0
+        ],
+        [
+          23,
+          23,
+          1.0
+        ],
+        [
+          24,
+          24,
+          1.0
+        ]
+      ],
+      "formula": "E[t,t]=1 for t<25",
+      "zero_grad": true,
+      "before_sha256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+      "after_sha256": "ad601d81a9b40263b4c5bebf12a796dc620910f76b6f319bfffa2b21ac5e9096"
+    },
+    {
+      "id": "transformer-write-001",
+      "type": "weight_write",
+      "tensor": "L0_H0_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-002",
+      "type": "weight_write",
+      "tensor": "L0_H0_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-003",
+      "type": "weight_write",
+      "tensor": "L0_H0_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [
+        [
+          1,
+          0,
+          1.0
+        ],
+        [
+          2,
+          1,
+          1.0
+        ],
+        [
+          3,
+          2,
+          1.0
+        ],
+        [
+          4,
+          3,
+          1.0
+        ],
+        [
+          9,
+          4,
+          1.0
+        ],
+        [
+          10,
+          5,
+          1.0
+        ],
+        [
+          11,
+          6,
+          1.0
+        ],
+        [
+          12,
+          7,
+          1.0
+        ],
+        [
+          17,
+          8,
+          1.0
+        ],
+        [
+          18,
+          9,
+          1.0
+        ],
+        [
+          19,
+          10,
+          1.0
+        ],
+        [
+          20,
+          11,
+          1.0
+        ]
+      ],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ae7eedd7069d3575c5ad7474a1984fbc62cd7b5682e8a561ed208ce35aa74867"
+    },
+    {
+      "id": "transformer-write-004",
+      "type": "weight_write",
+      "tensor": "L0_H0_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          32,
+          128.0
+        ],
+        [
+          1,
+          33,
+          128.0
+        ],
+        [
+          2,
+          34,
+          128.0
+        ],
+        [
+          3,
+          35,
+          128.0
+        ],
+        [
+          4,
+          36,
+          128.0
+        ],
+        [
+          5,
+          37,
+          128.0
+        ],
+        [
+          6,
+          38,
+          128.0
+        ],
+        [
+          7,
+          39,
+          128.0
+        ],
+        [
+          8,
+          40,
+          128.0
+        ],
+        [
+          9,
+          41,
+          128.0
+        ],
+        [
+          10,
+          42,
+          128.0
+        ],
+        [
+          11,
+          43,
+          128.0
+        ]
+      ],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "e5d806867fd68064fea4c1f40dfe271b1e9ec431b31de5fa82f9dee86298201c"
+    },
+    {
+      "id": "transformer-write-005",
+      "type": "weight_write",
+      "tensor": "L0_H1_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-006",
+      "type": "weight_write",
+      "tensor": "L0_H1_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-007",
+      "type": "weight_write",
+      "tensor": "L0_H1_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-008",
+      "type": "weight_write",
+      "tensor": "L0_H1_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-009",
+      "type": "weight_write",
+      "tensor": "L0_H2_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-010",
+      "type": "weight_write",
+      "tensor": "L0_H2_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-011",
+      "type": "weight_write",
+      "tensor": "L0_H2_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-012",
+      "type": "weight_write",
+      "tensor": "L0_H2_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-013",
+      "type": "weight_write",
+      "tensor": "L0_H3_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-014",
+      "type": "weight_write",
+      "tensor": "L0_H3_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-015",
+      "type": "weight_write",
+      "tensor": "L0_H3_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-016",
+      "type": "weight_write",
+      "tensor": "L0_H3_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-017",
+      "type": "weight_write",
+      "tensor": "L0_W_in",
+      "shape": [
+        64,
+        256
+      ],
+      "coords": [
+        [
+          32,
+          0,
+          1.0
+        ],
+        [
+          33,
+          1,
+          1.0
+        ],
+        [
+          34,
+          2,
+          1.0
+        ],
+        [
+          35,
+          3,
+          1.0
+        ],
+        [
+          36,
+          4,
+          1.0
+        ],
+        [
+          37,
+          5,
+          1.0
+        ],
+        [
+          38,
+          6,
+          1.0
+        ],
+        [
+          39,
+          7,
+          1.0
+        ],
+        [
+          40,
+          8,
+          1.0
+        ],
+        [
+          41,
+          9,
+          1.0
+        ],
+        [
+          42,
+          10,
+          1.0
+        ],
+        [
+          43,
+          11,
+          1.0
+        ]
+      ],
+      "formula": "read stage bank",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "2800b0d9ce0be883286c6b46f1cbc82cd384c23997d0b32febc65376a10c8379"
+    },
+    {
+      "id": "transformer-write-018",
+      "type": "weight_write",
+      "tensor": "L0_b_in",
+      "shape": [
+        1,
+        256
+      ],
+      "coords": [
+        [
+          0,
+          0,
+          -1.0
+        ],
+        [
+          0,
+          1,
+          -1.0
+        ],
+        [
+          0,
+          2,
+          -1.0
+        ],
+        [
+          0,
+          3,
+          -1.0
+        ],
+        [
+          0,
+          4,
+          -1.0
+        ],
+        [
+          0,
+          5,
+          -1.0
+        ],
+        [
+          0,
+          6,
+          -1.0
+        ],
+        [
+          0,
+          7,
+          -1.0
+        ],
+        [
+          0,
+          8,
+          -1.0
+        ],
+        [
+          0,
+          9,
+          -1.0
+        ],
+        [
+          0,
+          10,
+          -1.0
+        ],
+        [
+          0,
+          11,
+          -1.0
+        ]
+      ],
+      "formula": "gate threshold",
+      "zero_grad": true,
+      "before_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "after_sha256": "ffedaca62eae783b7ecf85418e598774d95b71b545c922d3736d0cc29f6022f6"
+    },
+    {
+      "id": "transformer-write-019",
+      "type": "weight_write",
+      "tensor": "L0_W_out",
+      "shape": [
+        256,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          32,
+          -1.0
+        ],
+        [
+          1,
+          33,
+          -1.0
+        ],
+        [
+          2,
+          34,
+          -1.0
+        ],
+        [
+          3,
+          35,
+          -1.0
+        ],
+        [
+          4,
+          36,
+          -1.0
+        ],
+        [
+          5,
+          37,
+          -1.0
+        ],
+        [
+          6,
+          38,
+          -1.0
+        ],
+        [
+          7,
+          39,
+          -1.0
+        ],
+        [
+          8,
+          40,
+          -1.0
+        ],
+        [
+          9,
+          41,
+          -1.0
+        ],
+        [
+          10,
+          42,
+          -1.0
+        ],
+        [
+          11,
+          43,
+          -1.0
+        ]
+      ],
+      "formula": "residual correction / AND write",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "609e80c394a0f89bca4d0e2f72cdcc7172434e2b64040da76a6edc38b2b79bad"
+    },
+    {
+      "id": "transformer-write-020",
+      "type": "weight_write",
+      "tensor": "L0_b_out",
+      "shape": [
+        1,
+        64
+      ],
+      "coords": [],
+      "formula": "zero bias",
+      "zero_grad": true,
+      "before_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "after_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    {
+      "id": "transformer-write-021",
+      "type": "weight_write",
+      "tensor": "L1_H0_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-022",
+      "type": "weight_write",
+      "tensor": "L1_H0_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-023",
+      "type": "weight_write",
+      "tensor": "L1_H0_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-024",
+      "type": "weight_write",
+      "tensor": "L1_H0_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-025",
+      "type": "weight_write",
+      "tensor": "L1_H1_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-026",
+      "type": "weight_write",
+      "tensor": "L1_H1_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-027",
+      "type": "weight_write",
+      "tensor": "L1_H1_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-028",
+      "type": "weight_write",
+      "tensor": "L1_H1_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-029",
+      "type": "weight_write",
+      "tensor": "L1_H2_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-030",
+      "type": "weight_write",
+      "tensor": "L1_H2_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-031",
+      "type": "weight_write",
+      "tensor": "L1_H2_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-032",
+      "type": "weight_write",
+      "tensor": "L1_H2_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-033",
+      "type": "weight_write",
+      "tensor": "L1_H3_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-034",
+      "type": "weight_write",
+      "tensor": "L1_H3_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-035",
+      "type": "weight_write",
+      "tensor": "L1_H3_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-036",
+      "type": "weight_write",
+      "tensor": "L1_H3_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-037",
+      "type": "weight_write",
+      "tensor": "L1_W_in",
+      "shape": [
+        64,
+        256
+      ],
+      "coords": [
+        [
+          32,
+          0,
+          1.0
+        ],
+        [
+          33,
+          1,
+          1.0
+        ],
+        [
+          34,
+          2,
+          1.0
+        ],
+        [
+          35,
+          3,
+          1.0
+        ],
+        [
+          36,
+          4,
+          1.0
+        ],
+        [
+          37,
+          5,
+          1.0
+        ],
+        [
+          38,
+          6,
+          1.0
+        ],
+        [
+          39,
+          7,
+          1.0
+        ],
+        [
+          40,
+          8,
+          1.0
+        ],
+        [
+          41,
+          9,
+          1.0
+        ],
+        [
+          42,
+          10,
+          1.0
+        ],
+        [
+          43,
+          11,
+          1.0
+        ],
+        [
+          5,
+          0,
+          1.0
+        ],
+        [
+          6,
+          1,
+          1.0
+        ],
+        [
+          7,
+          2,
+          1.0
+        ],
+        [
+          8,
+          3,
+          1.0
+        ],
+        [
+          13,
+          4,
+          1.0
+        ],
+        [
+          14,
+          5,
+          1.0
+        ],
+        [
+          15,
+          6,
+          1.0
+        ],
+        [
+          16,
+          7,
+          1.0
+        ],
+        [
+          21,
+          8,
+          1.0
+        ],
+        [
+          22,
+          9,
+          1.0
+        ],
+        [
+          23,
+          10,
+          1.0
+        ],
+        [
+          24,
+          11,
+          1.0
+        ]
+      ],
+      "formula": "read stage bank",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "d118c2a0b6893a852095e6dd292808f51d4f014eac1360bceded4ceb319e394b"
+    },
+    {
+      "id": "transformer-write-038",
+      "type": "weight_write",
+      "tensor": "L1_b_in",
+      "shape": [
+        1,
+        256
+      ],
+      "coords": [
+        [
+          0,
+          0,
+          -1.5
+        ],
+        [
+          0,
+          1,
+          -1.5
+        ],
+        [
+          0,
+          2,
+          -1.5
+        ],
+        [
+          0,
+          3,
+          -1.5
+        ],
+        [
+          0,
+          4,
+          -1.5
+        ],
+        [
+          0,
+          5,
+          -1.5
+        ],
+        [
+          0,
+          6,
+          -1.5
+        ],
+        [
+          0,
+          7,
+          -1.5
+        ],
+        [
+          0,
+          8,
+          -1.5
+        ],
+        [
+          0,
+          9,
+          -1.5
+        ],
+        [
+          0,
+          10,
+          -1.5
+        ],
+        [
+          0,
+          11,
+          -1.5
+        ]
+      ],
+      "formula": "gate threshold",
+      "zero_grad": true,
+      "before_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "after_sha256": "d04309202c02fb60cf62a0b4b8a3bc89f23221170fc4750a60a55e1c0401616f"
+    },
+    {
+      "id": "transformer-write-039",
+      "type": "weight_write",
+      "tensor": "L1_W_out",
+      "shape": [
+        256,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          44,
+          2.0
+        ],
+        [
+          1,
+          45,
+          2.0
+        ],
+        [
+          2,
+          46,
+          2.0
+        ],
+        [
+          3,
+          47,
+          2.0
+        ],
+        [
+          4,
+          48,
+          2.0
+        ],
+        [
+          5,
+          49,
+          2.0
+        ],
+        [
+          6,
+          50,
+          2.0
+        ],
+        [
+          7,
+          51,
+          2.0
+        ],
+        [
+          8,
+          52,
+          2.0
+        ],
+        [
+          9,
+          53,
+          2.0
+        ],
+        [
+          10,
+          54,
+          2.0
+        ],
+        [
+          11,
+          55,
+          2.0
+        ]
+      ],
+      "formula": "residual correction / AND write",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "420383fc643d3af600b6ca931dc697c57e00f749ea35d8ff2024ff718298bc5a"
+    },
+    {
+      "id": "transformer-write-040",
+      "type": "weight_write",
+      "tensor": "L1_b_out",
+      "shape": [
+        1,
+        64
+      ],
+      "coords": [],
+      "formula": "zero bias",
+      "zero_grad": true,
+      "before_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "after_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    {
+      "id": "transformer-write-041",
+      "type": "weight_write",
+      "tensor": "L2_H0_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-042",
+      "type": "weight_write",
+      "tensor": "L2_H0_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-043",
+      "type": "weight_write",
+      "tensor": "L2_H0_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [
+        [
+          44,
+          0,
+          1.0
+        ],
+        [
+          45,
+          0,
+          1.0
+        ],
+        [
+          46,
+          0,
+          1.0
+        ],
+        [
+          47,
+          0,
+          1.0
+        ],
+        [
+          48,
+          1,
+          1.0
+        ],
+        [
+          49,
+          1,
+          1.0
+        ],
+        [
+          50,
+          1,
+          1.0
+        ],
+        [
+          51,
+          1,
+          1.0
+        ],
+        [
+          52,
+          2,
+          1.0
+        ],
+        [
+          53,
+          2,
+          1.0
+        ],
+        [
+          54,
+          2,
+          1.0
+        ],
+        [
+          55,
+          2,
+          1.0
+        ]
+      ],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "5a48e71f69a0c3714d6369bcafbcd748e675ad0468c0d7c7eacce3fe6c82dfe2"
+    },
+    {
+      "id": "transformer-write-044",
+      "type": "weight_write",
+      "tensor": "L2_H0_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          56,
+          128.0
+        ],
+        [
+          1,
+          57,
+          128.0
+        ],
+        [
+          2,
+          58,
+          128.0
+        ]
+      ],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "6cbe1915ab9650eb8b853fb2bdd2cb78d140f14ee728590e262e88835176e520"
+    },
+    {
+      "id": "transformer-write-045",
+      "type": "weight_write",
+      "tensor": "L2_H1_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-046",
+      "type": "weight_write",
+      "tensor": "L2_H1_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-047",
+      "type": "weight_write",
+      "tensor": "L2_H1_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-048",
+      "type": "weight_write",
+      "tensor": "L2_H1_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-049",
+      "type": "weight_write",
+      "tensor": "L2_H2_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-050",
+      "type": "weight_write",
+      "tensor": "L2_H2_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-051",
+      "type": "weight_write",
+      "tensor": "L2_H2_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-052",
+      "type": "weight_write",
+      "tensor": "L2_H2_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-053",
+      "type": "weight_write",
+      "tensor": "L2_H3_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-054",
+      "type": "weight_write",
+      "tensor": "L2_H3_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-055",
+      "type": "weight_write",
+      "tensor": "L2_H3_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-056",
+      "type": "weight_write",
+      "tensor": "L2_H3_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-057",
+      "type": "weight_write",
+      "tensor": "L2_W_in",
+      "shape": [
+        64,
+        256
+      ],
+      "coords": [
+        [
+          56,
+          0,
+          1.0
+        ],
+        [
+          57,
+          1,
+          1.0
+        ],
+        [
+          58,
+          2,
+          1.0
+        ]
+      ],
+      "formula": "read stage bank",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "ab55f84014634f1a05e85bf3e32de8ef20ed3be27d57c3e565e693bfa848af7f"
+    },
+    {
+      "id": "transformer-write-058",
+      "type": "weight_write",
+      "tensor": "L2_b_in",
+      "shape": [
+        1,
+        256
+      ],
+      "coords": [
+        [
+          0,
+          0,
+          -1.0
+        ],
+        [
+          0,
+          1,
+          -1.0
+        ],
+        [
+          0,
+          2,
+          -1.0
+        ]
+      ],
+      "formula": "gate threshold",
+      "zero_grad": true,
+      "before_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "after_sha256": "f98da6c8729e6113a50d2bd2a84615a62e49f808d940b3ce4a31507664efcad4"
+    },
+    {
+      "id": "transformer-write-059",
+      "type": "weight_write",
+      "tensor": "L2_W_out",
+      "shape": [
+        256,
+        64
+      ],
+      "coords": [
+        [
+          0,
+          56,
+          -1.0
+        ],
+        [
+          1,
+          57,
+          -1.0
+        ],
+        [
+          2,
+          58,
+          -1.0
+        ]
+      ],
+      "formula": "residual correction / AND write",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "584817f7e0747077b2d1b6ae9b1cdd1df99db2d8c771f57586bb5c148e587c38"
+    },
+    {
+      "id": "transformer-write-060",
+      "type": "weight_write",
+      "tensor": "L2_b_out",
+      "shape": [
+        1,
+        64
+      ],
+      "coords": [],
+      "formula": "zero bias",
+      "zero_grad": true,
+      "before_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "after_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    {
+      "id": "transformer-write-061",
+      "type": "weight_write",
+      "tensor": "L3_H0_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-062",
+      "type": "weight_write",
+      "tensor": "L3_H0_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-063",
+      "type": "weight_write",
+      "tensor": "L3_H0_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-064",
+      "type": "weight_write",
+      "tensor": "L3_H0_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-065",
+      "type": "weight_write",
+      "tensor": "L3_H1_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-066",
+      "type": "weight_write",
+      "tensor": "L3_H1_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-067",
+      "type": "weight_write",
+      "tensor": "L3_H1_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-068",
+      "type": "weight_write",
+      "tensor": "L3_H1_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-069",
+      "type": "weight_write",
+      "tensor": "L3_H2_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-070",
+      "type": "weight_write",
+      "tensor": "L3_H2_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-071",
+      "type": "weight_write",
+      "tensor": "L3_H2_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-072",
+      "type": "weight_write",
+      "tensor": "L3_H2_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-073",
+      "type": "weight_write",
+      "tensor": "L3_H3_W_Q",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-074",
+      "type": "weight_write",
+      "tensor": "L3_H3_W_K",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-075",
+      "type": "weight_write",
+      "tensor": "L3_H3_W_V",
+      "shape": [
+        64,
+        16
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-076",
+      "type": "weight_write",
+      "tensor": "L3_H3_W_O",
+      "shape": [
+        16,
+        64
+      ],
+      "coords": [],
+      "formula": "uniform routing; Q=K=0; see transformer specification",
+      "zero_grad": true,
+      "before_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+      "after_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    {
+      "id": "transformer-write-077",
+      "type": "weight_write",
+      "tensor": "L3_W_in",
+      "shape": [
+        64,
+        256
+      ],
+      "coords": [],
+      "formula": "read stage bank",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31"
+    },
+    {
+      "id": "transformer-write-078",
+      "type": "weight_write",
+      "tensor": "L3_b_in",
+      "shape": [
+        1,
+        256
+      ],
+      "coords": [],
+      "formula": "gate threshold",
+      "zero_grad": true,
+      "before_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "after_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    {
+      "id": "transformer-write-079",
+      "type": "weight_write",
+      "tensor": "L3_W_out",
+      "shape": [
+        256,
+        64
+      ],
+      "coords": [],
+      "formula": "residual correction / AND write",
+      "zero_grad": true,
+      "before_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "after_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31"
+    },
+    {
+      "id": "transformer-write-080",
+      "type": "weight_write",
+      "tensor": "L3_b_out",
+      "shape": [
+        1,
+        64
+      ],
+      "coords": [],
+      "formula": "zero bias",
+      "zero_grad": true,
+      "before_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "after_sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    {
+      "id": "transformer-write-081",
+      "type": "weight_write",
+      "tensor": "W_U",
+      "shape": [
+        64,
+        4
+      ],
+      "coords": [
+        [
+          56,
+          1,
+          1.0
+        ],
+        [
+          57,
+          2,
+          2.0
+        ],
+        [
+          58,
+          3,
+          3.0
+        ]
+      ],
+      "formula": "class precedence",
+      "zero_grad": true,
+      "before_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "after_sha256": "38ca094f666a0141a1e8a2e441c152b2d2a525fbff0249d2600e9378d8384a80"
+    },
+    {
+      "id": "transformer-write-082",
+      "type": "weight_write",
+      "tensor": "b_U",
+      "shape": [
+        1,
+        4
+      ],
+      "coords": [
+        [
+          0,
+          0,
+          0.5
+        ]
+      ],
+      "formula": "benign threshold",
+      "zero_grad": true,
+      "before_sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+      "after_sha256": "5ac9fec76485699e0febf9d73c56ce0dff0ad05c1c04e6824741d599fa988b9f"
+    }
+  ]
+}

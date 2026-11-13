@@ -1,0 +1,3 @@
+# Asset licenses
+
+Original diagrams, SVGs, motion source and carousel illustrations: MIT under repository LICENSE. System Arial fonts are rendered locally and are not redistributed; Linux fallback is installed DejaVu Sans. No downloaded music, photography, footage or model weights. Runtime software retains its own upstream licenses. React/Vite/TypeScript/Playwright package licenses are in their installed distributions. Python dependencies and FFmpeg are external runtime dependencies, not relicensed by this repository.

@@ -1,0 +1,2175 @@
+{
+  "schema_version": "1.0",
+  "profile": "bounded-diagnostic",
+  "seed": 11,
+  "results": [
+    {
+      "id": "E2-compiled-16-11",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 16,
+      "seed": 11,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.007931099971756339,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-32-11",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 32,
+      "seed": 11,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.007126200012862682,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-64-11",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 64,
+      "seed": 11,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.01065259997267276,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-128-11",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 128,
+      "seed": 11,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.0212226000148803,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-256-11",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 256,
+      "seed": 11,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.04711240000324324,
+      "accuracy": 0.703125,
+      "macro_f1": 0.7088989911259687,
+      "balanced_accuracy": 0.703125,
+      "correct": 180,
+      "n": 256,
+      "ci": [
+        0.6444881547852961,
+        0.7557556860777528
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          41,
+          23,
+          0,
+          0
+        ],
+        [
+          22,
+          0,
+          42,
+          0
+        ],
+        [
+          13,
+          0,
+          0,
+          51
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-50-11",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 11,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 1.0518125999951735,
+      "accuracy": 0.8046875,
+      "macro_f1": 0.7536370268670108,
+      "balanced_accuracy": 0.8046875,
+      "correct": 206,
+      "n": 256,
+      "ci": [
+        0.7517691603098198,
+        0.8485966009847536
+      ],
+      "confusion_matrix": [
+        [
+          14,
+          15,
+          14,
+          21
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-50-11",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 11,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 0.025827799981925637,
+      "accuracy": 0.33203125,
+      "macro_f1": 0.30329735878989045,
+      "balanced_accuracy": 0.33203125,
+      "correct": 85,
+      "n": 256,
+      "ci": [
+        0.27719837840199485,
+        0.3918307531920225
+      ],
+      "confusion_matrix": [
+        [
+          47,
+          4,
+          6,
+          7
+        ],
+        [
+          49,
+          9,
+          3,
+          3
+        ],
+        [
+          47,
+          5,
+          8,
+          4
+        ],
+        [
+          39,
+          4,
+          0,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-50-11",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 11,
+      "train_n": 50,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.629782099975273,
+      "accuracy": 0.70703125,
+      "macro_f1": 0.7138092385770405,
+      "balanced_accuracy": 0.70703125,
+      "correct": 181,
+      "n": 256,
+      "ci": [
+        0.6485467873976802,
+        0.7593940504050427
+      ],
+      "confusion_matrix": [
+        [
+          34,
+          6,
+          10,
+          14
+        ],
+        [
+          17,
+          47,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          59,
+          0
+        ],
+        [
+          23,
+          0,
+          0,
+          41
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-200-11",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 11,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.01962209999328479,
+      "accuracy": 0.8203125,
+      "macro_f1": 0.7800429814134743,
+      "balanced_accuracy": 0.8203125,
+      "correct": 210,
+      "n": 256,
+      "ci": [
+        0.7686551946268473,
+        0.8624985544264222
+      ],
+      "confusion_matrix": [
+        [
+          18,
+          12,
+          13,
+          21
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-200-11",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 11,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.032619800011161715,
+      "accuracy": 0.63671875,
+      "macro_f1": 0.6582702269280033,
+      "balanced_accuracy": 0.63671875,
+      "correct": 163,
+      "n": 256,
+      "ci": [
+        0.5761839137959475,
+        0.6932109790926431
+      ],
+      "confusion_matrix": [
+        [
+          40,
+          8,
+          5,
+          11
+        ],
+        [
+          22,
+          42,
+          0,
+          0
+        ],
+        [
+          23,
+          0,
+          41,
+          0
+        ],
+        [
+          22,
+          2,
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-200-11",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 11,
+      "train_n": 200,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.3207486000028439,
+      "accuracy": 0.82421875,
+      "macro_f1": 0.8116956242212997,
+      "balanced_accuracy": 0.82421875,
+      "correct": 211,
+      "n": 256,
+      "ci": [
+        0.7728961166821191,
+        0.8659546293108245
+      ],
+      "confusion_matrix": [
+        [
+          31,
+          10,
+          9,
+          14
+        ],
+        [
+          4,
+          60,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          60,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-1000-11",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 11,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.05132780002895743,
+      "accuracy": 0.9140625,
+      "macro_f1": 0.9077156255894856,
+      "balanced_accuracy": 0.9140625,
+      "correct": 234,
+      "n": 256,
+      "ci": [
+        0.8733168298757226,
+        0.9425648457297233
+      ],
+      "confusion_matrix": [
+        [
+          42,
+          4,
+          8,
+          10
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-1000-11",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 11,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.20113669999409467,
+      "accuracy": 0.87109375,
+      "macro_f1": 0.8643052505481977,
+      "balanced_accuracy": 0.87109375,
+      "correct": 223,
+      "n": 256,
+      "ci": [
+        0.8244949303034488,
+        0.906719778965583
+      ],
+      "confusion_matrix": [
+        [
+          39,
+          8,
+          4,
+          13
+        ],
+        [
+          5,
+          59,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          61
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-1000-11",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 11,
+      "train_n": 1000,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.5069913000334054,
+      "accuracy": 0.86328125,
+      "macro_f1": 0.849841267984419,
+      "balanced_accuracy": 0.86328125,
+      "correct": 221,
+      "n": 256,
+      "ci": [
+        0.8157938532773119,
+        0.9000268621123717
+      ],
+      "confusion_matrix": [
+        [
+          33,
+          11,
+          6,
+          14
+        ],
+        [
+          3,
+          61,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          63
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-16-22",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 16,
+      "seed": 22,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.0057542999857105315,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-32-22",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 32,
+      "seed": 22,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.008428300032392144,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-64-22",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 64,
+      "seed": 22,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.01233140000840649,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-128-22",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 128,
+      "seed": 22,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.021115100011229515,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-256-22",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 256,
+      "seed": 22,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.05039649998070672,
+      "accuracy": 0.6796875,
+      "macro_f1": 0.6941535167341619,
+      "balanced_accuracy": 0.6796875,
+      "correct": 174,
+      "n": 256,
+      "ci": [
+        0.6202347782890922,
+        0.7338270809359126
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          35,
+          29,
+          0,
+          0
+        ],
+        [
+          29,
+          0,
+          35,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-50-22",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 22,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 0.02172309998422861,
+      "accuracy": 0.6953125,
+      "macro_f1": 0.6866783463921363,
+      "balanced_accuracy": 0.6953125,
+      "correct": 178,
+      "n": 256,
+      "ci": [
+        0.6363851497434322,
+        0.7484646972402688
+      ],
+      "confusion_matrix": [
+        [
+          22,
+          21,
+          11,
+          10
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          46,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-50-22",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 22,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 0.03284389997133985,
+      "accuracy": 0.390625,
+      "macro_f1": 0.3786644993770351,
+      "balanced_accuracy": 0.390625,
+      "correct": 100,
+      "n": 256,
+      "ci": [
+        0.33289687710321253,
+        0.4515872085859151
+      ],
+      "confusion_matrix": [
+        [
+          48,
+          4,
+          6,
+          6
+        ],
+        [
+          48,
+          10,
+          6,
+          0
+        ],
+        [
+          39,
+          0,
+          22,
+          3
+        ],
+        [
+          38,
+          0,
+          6,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-50-22",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 22,
+      "train_n": 50,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.47594430000754073,
+      "accuracy": 0.6015625,
+      "macro_f1": 0.6281087983514737,
+      "balanced_accuracy": 0.6015625,
+      "correct": 154,
+      "n": 256,
+      "ci": [
+        0.5405138996853006,
+        0.6596080207462239
+      ],
+      "confusion_matrix": [
+        [
+          42,
+          9,
+          3,
+          10
+        ],
+        [
+          28,
+          36,
+          0,
+          0
+        ],
+        [
+          22,
+          0,
+          42,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          34
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-200-22",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 22,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.013858299993444234,
+      "accuracy": 0.88671875,
+      "macro_f1": 0.8742602003471569,
+      "balanced_accuracy": 0.88671875,
+      "correct": 227,
+      "n": 256,
+      "ci": [
+        0.8420429058573817,
+        0.9199597911703461
+      ],
+      "confusion_matrix": [
+        [
+          35,
+          12,
+          10,
+          7
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-200-22",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 22,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.09983970003668219,
+      "accuracy": 0.5,
+      "macro_f1": 0.5319234224894602,
+      "balanced_accuracy": 0.5,
+      "correct": 128,
+      "n": 256,
+      "ci": [
+        0.43920445797238533,
+        0.5607955420276147
+      ],
+      "confusion_matrix": [
+        [
+          34,
+          11,
+          8,
+          11
+        ],
+        [
+          32,
+          31,
+          1,
+          0
+        ],
+        [
+          31,
+          0,
+          33,
+          0
+        ],
+        [
+          34,
+          0,
+          0,
+          30
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-200-22",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 22,
+      "train_n": 200,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.29619299998739734,
+      "accuracy": 0.74609375,
+      "macro_f1": 0.7482438322175945,
+      "balanced_accuracy": 0.74609375,
+      "correct": 191,
+      "n": 256,
+      "ci": [
+        0.6894086206103858,
+        0.7955021865890772
+      ],
+      "confusion_matrix": [
+        [
+          34,
+          11,
+          8,
+          11
+        ],
+        [
+          17,
+          47,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          58,
+          0
+        ],
+        [
+          12,
+          0,
+          0,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-1000-22",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 22,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.043351100001018494,
+      "accuracy": 0.9140625,
+      "macro_f1": 0.9077156255894856,
+      "balanced_accuracy": 0.9140625,
+      "correct": 234,
+      "n": 256,
+      "ci": [
+        0.8733168298757226,
+        0.9425648457297233
+      ],
+      "confusion_matrix": [
+        [
+          42,
+          10,
+          8,
+          4
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-1000-22",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 22,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.1947840999928303,
+      "accuracy": 0.90234375,
+      "macro_f1": 0.8993175431995264,
+      "balanced_accuracy": 0.90234375,
+      "correct": 231,
+      "n": 256,
+      "ci": [
+        0.8598142426223699,
+        0.932976442164054
+      ],
+      "confusion_matrix": [
+        [
+          47,
+          6,
+          6,
+          5
+        ],
+        [
+          1,
+          63,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          57
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-1000-22",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 22,
+      "train_n": 1000,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.46068179997382686,
+      "accuracy": 0.85546875,
+      "macro_f1": 0.847656097083578,
+      "balanced_accuracy": 0.85546875,
+      "correct": 219,
+      "n": 256,
+      "ci": [
+        0.8071367963503525,
+        0.8932899251599832
+      ],
+      "confusion_matrix": [
+        [
+          37,
+          13,
+          5,
+          9
+        ],
+        [
+          1,
+          63,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          61,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-16-33",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 16,
+      "seed": 33,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.005042299977503717,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-32-33",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 32,
+      "seed": 33,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.00661240000044927,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-64-33",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 64,
+      "seed": 33,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.01308100001187995,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-128-33",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 128,
+      "seed": 33,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.01593029999639839,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "E2-compiled-256-33",
+      "study": "E2",
+      "method": "WSP-Compiled",
+      "length": 256,
+      "seed": 33,
+      "status": "measured",
+      "train_n": 0,
+      "seconds": 0.03350520000094548,
+      "accuracy": 0.73828125,
+      "macro_f1": 0.7536648536648537,
+      "balanced_accuracy": 0.73828125,
+      "correct": 189,
+      "n": 256,
+      "ci": [
+        0.6811946050676242,
+        0.7883222082524909
+      ],
+      "confusion_matrix": [
+        [
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          29,
+          35,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          44,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-50-33",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 33,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 0.022099099995102733,
+      "accuracy": 0.69140625,
+      "macro_f1": 0.6656603211268499,
+      "balanced_accuracy": 0.69140625,
+      "correct": 177,
+      "n": 256,
+      "ci": [
+        0.6323406743588921,
+        0.7448121756851348
+      ],
+      "confusion_matrix": [
+        [
+          19,
+          18,
+          15,
+          12
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          34,
+          0,
+          0,
+          30
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-50-33",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 33,
+      "train_n": 50,
+      "status": "measured",
+      "seconds": 0.02165219996822998,
+      "accuracy": 0.32421875,
+      "macro_f1": 0.33254532896842554,
+      "balanced_accuracy": 0.32421875,
+      "correct": 83,
+      "n": 256,
+      "ci": [
+        0.2698436435702452,
+        0.3837914941444241
+      ],
+      "confusion_matrix": [
+        [
+          34,
+          8,
+          12,
+          10
+        ],
+        [
+          43,
+          15,
+          6,
+          0
+        ],
+        [
+          42,
+          1,
+          19,
+          2
+        ],
+        [
+          45,
+          2,
+          2,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-50-33",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 33,
+      "train_n": 50,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.44055189995560795,
+      "accuracy": 0.49609375,
+      "macro_f1": 0.49653998926810416,
+      "balanced_accuracy": 0.49609375,
+      "correct": 127,
+      "n": 256,
+      "ci": [
+        0.4353577874327663,
+        0.5569452156275596
+      ],
+      "confusion_matrix": [
+        [
+          14,
+          21,
+          19,
+          10
+        ],
+        [
+          7,
+          51,
+          6,
+          0
+        ],
+        [
+          22,
+          2,
+          37,
+          3
+        ],
+        [
+          33,
+          5,
+          1,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-200-33",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 33,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.01851880003232509,
+      "accuracy": 0.8046875,
+      "macro_f1": 0.793706159275539,
+      "balanced_accuracy": 0.8046875,
+      "correct": 206,
+      "n": 256,
+      "ci": [
+        0.7517691603098198,
+        0.8485966009847536
+      ],
+      "confusion_matrix": [
+        [
+          33,
+          14,
+          7,
+          10
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          19,
+          0,
+          0,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-200-33",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 33,
+      "train_n": 200,
+      "status": "measured",
+      "seconds": 0.025541999959386885,
+      "accuracy": 0.515625,
+      "macro_f1": 0.5388913430946614,
+      "balanced_accuracy": 0.515625,
+      "correct": 132,
+      "n": 256,
+      "ci": [
+        0.4546277053336087,
+        0.5761602824250874
+      ],
+      "confusion_matrix": [
+        [
+          30,
+          12,
+          10,
+          12
+        ],
+        [
+          20,
+          42,
+          2,
+          0
+        ],
+        [
+          30,
+          1,
+          33,
+          0
+        ],
+        [
+          34,
+          2,
+          1,
+          27
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-200-33",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 33,
+      "train_n": 200,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.332095300022047,
+      "accuracy": 0.7421875,
+      "macro_f1": 0.7237078248548837,
+      "balanced_accuracy": 0.7421875,
+      "correct": 190,
+      "n": 256,
+      "ci": [
+        0.6852989013222897,
+        0.7919149089374995
+      ],
+      "confusion_matrix": [
+        [
+          21,
+          17,
+          10,
+          16
+        ],
+        [
+          9,
+          55,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          51,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          63
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-histogram-1000-33",
+      "study": "E1",
+      "method": "retrieval-histogram",
+      "length": 32,
+      "seed": 33,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.04410320002352819,
+      "accuracy": 0.84375,
+      "macro_f1": 0.8386697070329843,
+      "balanced_accuracy": 0.84375,
+      "correct": 216,
+      "n": 256,
+      "ci": [
+        0.7942275431635906,
+        0.8831081875277229
+      ],
+      "confusion_matrix": [
+        [
+          43,
+          9,
+          6,
+          6
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          64,
+          0
+        ],
+        [
+          19,
+          0,
+          0,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "E1-retrieval-position-1000-33",
+      "study": "E1",
+      "method": "retrieval-position",
+      "length": 32,
+      "seed": 33,
+      "train_n": 1000,
+      "status": "measured",
+      "seconds": 0.05417620000662282,
+      "accuracy": 0.8828125,
+      "macro_f1": 0.874845628564164,
+      "balanced_accuracy": 0.8828125,
+      "correct": 226,
+      "n": 256,
+      "ci": [
+        0.8376364633255448,
+        0.916669236762509
+      ],
+      "confusion_matrix": [
+        [
+          39,
+          10,
+          7,
+          8
+        ],
+        [
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          62,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          61
+        ]
+      ]
+    },
+    {
+      "id": "E1-mlp-1000-33",
+      "study": "E1",
+      "method": "AdamW-feature-MLP",
+      "architecture_mismatch": true,
+      "length": 32,
+      "seed": 33,
+      "train_n": 1000,
+      "optimizer_steps": 100,
+      "status": "measured",
+      "seconds": 0.5407218000036664,
+      "accuracy": 0.828125,
+      "macro_f1": 0.8150705572227426,
+      "balanced_accuracy": 0.828125,
+      "correct": 212,
+      "n": 256,
+      "ci": [
+        0.7771451946116188,
+        0.8694025483209986
+      ],
+      "confusion_matrix": [
+        [
+          31,
+          15,
+          9,
+          9
+        ],
+        [
+          2,
+          62,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          61,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "E3-near-miss",
+      "study": "E3",
+      "method": "WSP-Compiled",
+      "length": 32,
+      "seed": 11,
+      "train_n": 0,
+      "status": "measured",
+      "accuracy": 1.0,
+      "macro_f1": 0.25,
+      "balanced_accuracy": 1.0,
+      "correct": 72,
+      "n": 72,
+      "ci": [
+        0.9493470601886036,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          72,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "E5-boundary",
+      "study": "E5",
+      "method": "WSP-Compiled",
+      "length": 512,
+      "seed": 11,
+      "train_n": 0,
+      "status": "measured",
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "balanced_accuracy": 0.0,
+      "correct": 0,
+      "n": 1,
+      "ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "edits": [
+    {
+      "method": "analytic",
+      "lambda_": 0.0,
+      "lambda": 0.0,
+      "target_mse": 3.6405100347523926e-12,
+      "before_mse": 3.6405173169036074,
+      "drift": 0.07065668251365692,
+      "patch_norm": 7.63204825548675,
+      "singular_values": [
+        7.067618831478588,
+        2.8804382699526085,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank": 2,
+      "reconstruction_error": 2.3023747694351215e-15,
+      "adapter_parameters": 48,
+      "modified_entries": 16,
+      "original_parameters": 128
+    },
+    {
+      "method": "analytic",
+      "lambda_": 0.1,
+      "lambda": 0.1,
+      "target_mse": 3.4063705225918364e-06,
+      "before_mse": 3.6405173169036074,
+      "drift": 0.07508075250504985,
+      "patch_norm": 7.627242510904702,
+      "singular_values": [
+        7.0631455535054695,
+        2.8786808107443544,
+        2.283919395272759e-17,
+        1.39547568515448e-17,
+        8.968121044788054e-18,
+        7.017541285625718e-18,
+        5.57789994494096e-18,
+        1.4959272387149361e-18
+      ],
+      "rank": 2,
+      "reconstruction_error": 3.472419797170628e-15,
+      "adapter_parameters": 48,
+      "modified_entries": 128,
+      "original_parameters": 128
+    },
+    {
+      "method": "analytic",
+      "lambda_": 1.0,
+      "lambda": 1.0,
+      "target_mse": 0.0003341526299500032,
+      "before_mse": 3.6405173169036074,
+      "drift": 0.07379283409118395,
+      "patch_norm": 7.56153806843999,
+      "singular_values": [
+        7.00164478779881,
+        2.8554908905400076,
+        2.9156333950192415e-17,
+        2.0283716082567727e-17,
+        1.0437209175092888e-17,
+        4.882194046874539e-18,
+        3.740073510397871e-18,
+        2.5250585755736177e-18
+      ],
+      "rank": 2,
+      "reconstruction_error": 3.956129304044559e-15,
+      "adapter_parameters": 48,
+      "modified_entries": 128,
+      "original_parameters": 128
+    },
+    {
+      "method": "analytic",
+      "lambda_": 10.0,
+      "lambda": 10.0,
+      "target_mse": 0.028305983881345333,
+      "before_mse": 3.6405173169036074,
+      "drift": 0.06255361743308455,
+      "patch_norm": 6.96193802519666,
+      "singular_values": [
+        6.440907191459937,
+        2.6425925939650248,
+        3.2964430409182454e-17,
+        1.5267591049915836e-17,
+        1.4169975658755422e-17,
+        5.4331222969592845e-18,
+        4.8610750480611744e-18,
+        1.7399195354126043e-18
+      ],
+      "rank": 2,
+      "reconstruction_error": 4.22980435788346e-15,
+      "adapter_parameters": 48,
+      "modified_entries": 128,
+      "original_parameters": 128
+    },
+    {
+      "method": "random-direction",
+      "lambda": 1.0,
+      "target_mse": 3.857409225132179,
+      "before_mse": 3.6405173169036074,
+      "drift": 6.724336025320696,
+      "rank": 8,
+      "singular_values": [
+        3.9033523404421637,
+        3.5638349106659075,
+        2.9533604330065644,
+        2.6374015747248594,
+        2.3629885585665242,
+        2.1678703977274885,
+        1.4398481526350346,
+        1.0977315659280984
+      ]
+    },
+    {
+      "method": "shuffled-target",
+      "lambda": 1.0,
+      "target_mse": 2.162318383097449,
+      "before_mse": 3.6405173169036074,
+      "drift": 0.1101194499669015,
+      "rank": 2,
+      "singular_values": [
+        6.896577345041466,
+        6.0612223209367135,
+        2.507761440079105e-17,
+        1.7722603100189287e-17,
+        5.781278567424573e-18,
+        5.4976622885566175e-18,
+        2.167470549598544e-18,
+        4.579756379716187e-19
+      ]
+    }
+  ],
+  "statuses": [
+    {
+      "study": "E1",
+      "method": "WSP-Hybrid",
+      "status": "not_run",
+      "reason": "No training protocol for saturated circuit yet"
+    },
+    {
+      "study": "E1",
+      "method": "LoRA-trained",
+      "status": "not_run",
+      "reason": "No shared pretrained checkpoint; comparison would be misleading"
+    },
+    {
+      "study": "E1",
+      "method": "architecture-matched AdamW",
+      "status": "not_run",
+      "reason": "Feature MLP is diagnostic only"
+    },
+    {
+      "study": "E5",
+      "method": "semantic-model",
+      "status": "not_run",
+      "reason": "No semantic dataset/model protocol implemented"
+    },
+    {
+      "study": "B2",
+      "method": "real-LLM",
+      "status": "not_run",
+      "reason": "No licensed checkpoint downloaded or evaluated"
+    }
+  ],
+  "elapsed_seconds": 14.129382199957035,
+  "caveats": [
+    "Fixed-budget feature baselines are not architecture-matched",
+    "Wilson intervals are conditional on generated samples",
+    "No pretrained language model evaluated"
+  ]
+}

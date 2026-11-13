@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    "PASS: rendered React and actual telemetry",
+    "PASS: circuit stage selection",
+    "PASS: event scrubber changes tensor",
+    "PASS: play/pause replay",
+    "PASS: method filter",
+    "PASS: edit control",
+    "PASS: actual film metadata loads",
+    "PASS: film captions available",
+    "PASS: research document links",
+    "PASS: mobile has no horizontal overflow",
+    "PASS: reduced motion control",
+    "PASS: no browser runtime errors"
+  ]
+}

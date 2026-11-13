@@ -1,0 +1,3 @@
+# Security
+
+This prototype is not a deployed security detector. It processes safe abstract tokens only. Do not attach credentials, live exploit payloads, private logs or model checkpoints with unclear licenses. Use GitHub private vulnerability reporting when enabled by the owner; otherwise request a private contact without posting sensitive details publicly. No production security guarantee is offered.

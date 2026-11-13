@@ -1,0 +1,20 @@
+{
+  "obsidian": "#07090E",
+  "carbon": "#0F141C",
+  "border": "#1E293B",
+  "text": "#F0F3F5",
+  "muted": "#94A3B8",
+  "compiled": "#10B981",
+  "routing": "#06B6D4",
+  "edit": "#F59E0B",
+  "anomaly": "#F43F5E",
+  "spacing": [
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ]
+}

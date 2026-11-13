@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this unreviewed research software prototype; source and evidence are available in the linked repository."
+title: "ZeroGrad-Sec: bounded weight compilation and analytic editing"
+type: software
+version: 0.1.0
+date-released: 2026-11-11
+license: MIT
+authors:
+  - family-names: "Kaid"
+    given-names: "Akram"
+repository-code: "https://github.com/KaidAkram/ZeroGrad"
+url: "https://github.com/KaidAkram/ZeroGrad"
+abstract: "A synthetic CPU-first testbed with explicit assumptions and evidence-linked visualizations."

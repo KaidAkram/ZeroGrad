@@ -1,0 +1,667 @@
+{
+  "architecture": "bounded-transformer-v1",
+  "status": "measured",
+  "results": [
+    {
+      "id": "T4-11-16",
+      "method": "WSP-Transformer",
+      "seed": 11,
+      "length": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-11-32",
+      "method": "WSP-Transformer",
+      "seed": 11,
+      "length": 32,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-11-64",
+      "method": "WSP-Transformer",
+      "seed": 11,
+      "length": 64,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-11-128",
+      "method": "WSP-Transformer",
+      "seed": 11,
+      "length": 128,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-11-256",
+      "method": "WSP-Transformer",
+      "seed": 11,
+      "length": 256,
+      "accuracy": 0.5546875,
+      "macro_f1": 0.5103446125058475,
+      "balanced_accuracy": 0.5546875,
+      "correct": 71,
+      "n": 128,
+      "ci": [
+        0.46824182376346457,
+        0.6379462079351798
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          18,
+          0
+        ],
+        [
+          11,
+          0,
+          0,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "T4-22-16",
+      "method": "WSP-Transformer",
+      "seed": 22,
+      "length": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-22-32",
+      "method": "WSP-Transformer",
+      "seed": 22,
+      "length": 32,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-22-64",
+      "method": "WSP-Transformer",
+      "seed": 22,
+      "length": 64,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-22-128",
+      "method": "WSP-Transformer",
+      "seed": 22,
+      "length": 128,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-22-256",
+      "method": "WSP-Transformer",
+      "seed": 22,
+      "length": 256,
+      "accuracy": 0.5,
+      "macro_f1": 0.45804385584020846,
+      "balanced_accuracy": 0.5,
+      "correct": 64,
+      "n": 128,
+      "ci": [
+        0.41465072364379996,
+        0.5853492763562
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          15,
+          0
+        ],
+        [
+          15,
+          0,
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "id": "T4-33-16",
+      "method": "WSP-Transformer",
+      "seed": 33,
+      "length": 16,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-33-32",
+      "method": "WSP-Transformer",
+      "seed": 33,
+      "length": 32,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-33-64",
+      "method": "WSP-Transformer",
+      "seed": 33,
+      "length": 64,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-33-128",
+      "method": "WSP-Transformer",
+      "seed": 33,
+      "length": 128,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "correct": 128,
+      "n": 128,
+      "ci": [
+        0.9708620041018919,
+        0.9999999999999999
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "T4-33-256",
+      "method": "WSP-Transformer",
+      "seed": 33,
+      "length": 256,
+      "accuracy": 0.4609375,
+      "macro_f1": 0.416238856328442,
+      "balanced_accuracy": 0.4609375,
+      "correct": 59,
+      "n": 128,
+      "ci": [
+        0.3769796782209271,
+        0.5471717277086126
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          12,
+          0
+        ],
+        [
+          17,
+          0,
+          0,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "T4-mixtures",
+      "method": "WSP-Transformer",
+      "seed": 905,
+      "length": 64,
+      "accuracy": 1.0,
+      "macro_f1": 0.25,
+      "balanced_accuracy": 1.0,
+      "correct": 256,
+      "n": 256,
+      "ci": [
+        0.9852156082782743,
+        1.0
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          256
+        ]
+      ]
+    }
+  ],
+  "elapsed_seconds": 8.84825640002964,
+  "zero_optimizer_steps": true,
+  "buffer_entries": 200196,
+  "nonzero_entries": 161,
+  "caveat": "Four blocks, but three computational blocks and three inactive heads per block; same two-stage abstract grammar only."
+}

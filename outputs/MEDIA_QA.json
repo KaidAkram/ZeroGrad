@@ -1,0 +1,122 @@
+[
+  {
+    "path": "outputs\\zerograd_preview.mp4",
+    "status": "PASS",
+    "width": 720,
+    "height": 900,
+    "fps": 60,
+    "frames": 300,
+    "duration": 5,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "full_decode": true,
+    "frame_probes": [
+      {
+        "time": 1,
+        "pixel_std": 27.673180269997843
+      },
+      {
+        "time": 4,
+        "pixel_std": 29.878437262099098
+      }
+    ]
+  },
+  {
+    "path": "outputs\\zerograd_linkedin_reel.mp4",
+    "status": "PASS",
+    "width": 1080,
+    "height": 1350,
+    "fps": 60,
+    "frames": 2700,
+    "duration": 45,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "full_decode": true,
+    "frame_probes": [
+      {
+        "time": 1,
+        "pixel_std": 28.115607486368884
+      },
+      {
+        "time": 10,
+        "pixel_std": 28.31709590152493
+      },
+      {
+        "time": 18,
+        "pixel_std": 27.364679702594977
+      },
+      {
+        "time": 27,
+        "pixel_std": 38.025804910612486
+      },
+      {
+        "time": 39,
+        "pixel_std": 41.215778864756615
+      },
+      {
+        "time": 44,
+        "pixel_std": 41.24666395436897
+      }
+    ]
+  },
+  {
+    "path": "outputs\\zerograd_widescreen.mp4",
+    "status": "PASS",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "frames": 2700,
+    "duration": 45,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "full_decode": true,
+    "frame_probes": [
+      {
+        "time": 1,
+        "pixel_std": 25.09741790802788
+      },
+      {
+        "time": 10,
+        "pixel_std": 24.798999939063208
+      },
+      {
+        "time": 18,
+        "pixel_std": 24.286947746998447
+      },
+      {
+        "time": 27,
+        "pixel_std": 31.78349946398053
+      },
+      {
+        "time": 39,
+        "pixel_std": 35.91096768003806
+      },
+      {
+        "time": 44,
+        "pixel_std": 35.95749795299801
+      }
+    ]
+  },
+  {
+    "path": "outputs\\zerograd_teaser_12s.mp4",
+    "status": "PASS",
+    "width": 1080,
+    "height": 1350,
+    "fps": 60,
+    "frames": 720,
+    "duration": 12,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "full_decode": true,
+    "frame_probes": [
+      {
+        "time": 1,
+        "pixel_std": 28.115607486368884
+      },
+      {
+        "time": 11,
+        "pixel_std": 29.17597593144811
+      }
+    ]
+  }
+]
